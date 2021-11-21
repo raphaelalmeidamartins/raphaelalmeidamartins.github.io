@@ -66,12 +66,12 @@ header a:hover {
 }
 
 .container_conteudo {
-    max-width: 60%;
+    max-width: 70%;
     margin: 0 auto;
     margin-top: 15%;
     color: #c6c6c6;
     position: absolute;
-    left: 20%;
+    left: 15%;
 }
 
 .bloco_apresentacao {
@@ -79,8 +79,10 @@ header a:hover {
 }
 
 .fileira {
+    width: -100vw;
     background-color: #4d4c4c;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     border-radius: 20px;
 
@@ -89,16 +91,16 @@ header a:hover {
 .skills_classe {
     display: flex;
     flex-direction: column;
-    padding: 30px;
-    margin: 30px;
+    padding: 20px;
+    margin: 20px;
 
 }
 
 .favsites_classe {
     display: flex;
     flex-direction: column;
-    padding: 30px;
-    margin: 30px;
+    padding: 20px;
+    margin: 20px;
 }
 
 .projetos_classe {
