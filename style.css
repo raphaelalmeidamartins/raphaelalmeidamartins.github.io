@@ -66,24 +66,31 @@ header a:hover {
 }
 
 .container_conteudo {
-    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+    max-width: 940px;
     margin: 0 auto;
     margin-top: 15%;
     color: #c6c6c6;
     position: absolute;
-    left: 15%;
+    left: 4%;
+    right: 4%;
 }
 
 .bloco_apresentacao {
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
-.fileira {
+#linha {
+    display: flex;
+}
+
+#fileira {
     width: -100vw;
     background-color: #4d4c4c;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     border-radius: 20px;
 
 }
@@ -101,6 +108,15 @@ header a:hover {
     flex-direction: column;
     padding: 20px;
     margin: 20px;
+}
+
+#desenho {
+    display: flex;
+    flex-grow: inherit;
+    border-radius: 20px;
+    margin-left: 20px;
+    width: 70%
+
 }
 
 .projetos_classe {
