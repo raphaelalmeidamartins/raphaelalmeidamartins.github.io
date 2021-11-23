@@ -4,6 +4,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 
+
+
 * {
     padding: 0;
     margin: 0;
@@ -26,6 +28,7 @@ h1 {
     font-family: 'Grand Hotel', cursive;
     font-weight: normal;
     font-size: 60px;
+    line-height: 65px;
     padding: 20px;
     margin: 20px;
 }
@@ -34,12 +37,16 @@ h2 {
     font-family: 'Grand Hotel', cursive;
     font-weight: normal;
     font-size: 45px;
+    line-height: 50px;
     padding-top: 20px;
     margin-bottom: 20px;
 }
 
 header {
     background-color: #9c340a;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 header a {
@@ -70,11 +77,12 @@ header a:hover {
     flex-direction: column;
     max-width: 940px;
     margin: 0 auto;
-    margin-top: 15%;
+    margin-top: 20%;
     color: #c6c6c6;
     position: absolute;
     left: 4%;
     right: 4%;
+    z-index: 0;
 }
 
 .bloco_apresentacao {
@@ -83,15 +91,19 @@ header a:hover {
 
 #linha {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #fileira {
-    width: -100vw;
+    width: 300px;
     background-color: #4d4c4c;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    flex-grow: 1;
     border-radius: 20px;
+    margin: 10px;
 
 }
 
@@ -112,10 +124,11 @@ header a:hover {
 
 #desenho {
     display: flex;
-    flex-grow: inherit;
+    flex-grow: 1;
+    flex-shrink: 1;
     border-radius: 20px;
-    margin-left: 20px;
-    width: 70%
+    margin: 10px;
+    width: 600px;
 
 }
 
@@ -152,7 +165,9 @@ header a:hover {
 }
 
 #capa {
-    width: 100vw;
+    width: 100%;
+    max-width: 200%;
+    margin-top: 62px;
 }
 
 #foto {
