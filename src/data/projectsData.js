@@ -46,7 +46,7 @@ const projectsData = [
     title: 'Online Store',
     screenshot: screenshotsData[3],
     description:
-      'Loja online Front-end SPA usando uma API pública',
+      'Aplicação SPA React de loja online usando uma API pública',
     tools: [
       toolsData.react,
       toolsData.reactRouterV5,
@@ -79,6 +79,37 @@ const projectsData = [
     ],
     repositoryLink: 'https://github.com/raphaelalmeidamartins/trybewallet',
     deployLink: 'https://raphaelalmeidamartins.github.io/trybewallet/#/',
+  },
+  {
+    id: 5,
+    title: 'To-Do List',
+    screenshot: screenshotsData[5],
+    description:
+      'Aplicação de lista de tarefas desenvolvida com JavaScript puro',
+    tools: [
+      toolsData.javaScript,
+      toolsData.html,
+      toolsData.css,
+      toolsData.sass,
+      toolsData.fontAwesome,
+    ],
+    repositoryLink: 'https://github.com/raphaelalmeidamartins/to-do-list',
+    deployLink: 'https://raphaelalmeidamartins.github.io/to-do-list/',
+  },
+  {
+    id: 6,
+    title: 'Trybewarts',
+    screenshot: screenshotsData[6],
+    description:
+      'Página responsiva com formulário HTML e inspirada em Harry Potter',
+    tools: [
+      toolsData.javaScript,
+      toolsData.html,
+      toolsData.css,
+      toolsData.sass,
+    ],
+    repositoryLink: 'https://github.com/raphaelalmeidamartins/trybewarts',
+    deployLink: 'https://raphaelalmeidamartins.github.io/trybewarts/',
   },
 ];
 

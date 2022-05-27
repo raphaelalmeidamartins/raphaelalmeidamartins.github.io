@@ -1,12 +1,16 @@
 import React from 'react';
 import { DiJavascript } from 'react-icons/di';
-import { FaRoute } from 'react-icons/fa';
+import { FaRoute, FaFontAwesomeFlag } from 'react-icons/fa';
 import {
   SiBulma, SiCss3, SiHtml5, SiReact,
   SiRedux, SiSass, SiTestinglibrary
 } from 'react-icons/si';
 
 const toolsData = {
+  fontAwesome: {
+    icon: <FaFontAwesomeFlag />,
+    label: 'Font Awesome',
+  },
   bulma: {
     icon: <SiBulma />,
     label: 'Bulma',
