@@ -45,6 +45,7 @@
     ]
   },
   "devDependencies": {
+    "eslint": "^8.16.0",
     "gh-pages": "^4.0.0"
   }
 }
