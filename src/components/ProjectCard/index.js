@@ -20,14 +20,14 @@ function ProjectCard({
   deployLink,
 }) {
   return (
-    <Card sx={{ maxWidth: 400 }}>
+    <Card sx={{ maxWidth: 400, height: '100%', position: 'relative' }}>
       <CardMedia
         component="img"
         height="290"
         image={screenshot}
         alt="screenshot"
       />
-      <CardContent sx={{ paddingBottom: '8px' }}>
+      <CardContent sx={{ paddingBottom: '48px' }}>
         <Typography gutterBottom variant="h5" component="div">
           {title}
         </Typography>
@@ -39,7 +39,7 @@ function ProjectCard({
             marginTop: '16px',
           }}
         >
-          {tools.map(({icon, label}) => (
+          {tools.map(({ icon, label }) => (
             <Chip
               key={label}
               size="small"
@@ -52,12 +52,21 @@ function ProjectCard({
       </CardContent>
       <CardActions
         sx={{
+          bottom: '8px',
           display: 'flex',
           justifyContent: 'flex-end',
-          padding: '0 18px 18px',
+          padding: '0',
+          position: 'absolute',
+          right: '8px',
+          width: '100%',
         }}
       >
-        <IconButton LinkComponent="a" href={repositoryLink} target="_blank" color="primary">
+        <IconButton
+          LinkComponent="a"
+          href={repositoryLink}
+          target="_blank"
+          color="primary"
+        >
           <SvgIcon inheritViewBox>
             <FaGithub />
           </SvgIcon>
