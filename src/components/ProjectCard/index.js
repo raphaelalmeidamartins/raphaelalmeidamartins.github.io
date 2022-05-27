@@ -1,15 +1,15 @@
-import { SvgIcon } from "@mui/material";
-import Card from "@mui/material/Card";
-import CardActions from "@mui/material/CardActions";
-import CardContent from "@mui/material/CardContent";
-import CardMedia from "@mui/material/CardMedia";
-import Chip from "@mui/material/Chip";
-import IconButton from "@mui/material/IconButton";
-import Typography from "@mui/material/Typography";
-import Box from "@mui/system/Box";
-import PropTypes from "prop-types";
-import * as React from "react";
-import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
+import { SvgIcon } from '@mui/material';
+import Card from '@mui/material/Card';
+import CardActions from '@mui/material/CardActions';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Chip from '@mui/material/Chip';
+import IconButton from '@mui/material/IconButton';
+import Typography from '@mui/material/Typography';
+import Box from '@mui/system/Box';
+import PropTypes from 'prop-types';
+import * as React from 'react';
+import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 
 function ProjectCard({
   screenshot,
@@ -27,7 +27,7 @@ function ProjectCard({
         image={screenshot}
         alt="screenshot"
       />
-      <CardContent sx={{ paddingBottom: "8px" }}>
+      <CardContent sx={{ paddingBottom: '8px' }}>
         <Typography gutterBottom variant="h5" component="div">
           {title}
         </Typography>
@@ -36,24 +36,25 @@ function ProjectCard({
         </Typography>
         <Box
           sx={{
-            marginTop: "16px",
+            marginTop: '16px',
           }}
         >
-          {tools.map((tool) => (
+          {tools.map(({icon, label}) => (
             <Chip
-              key={tool}
+              key={label}
               size="small"
-              label={tool}
-              sx={{ margin: "0 4px 4px 0" }}
+              icon={icon}
+              label={label}
+              sx={{ margin: '0 8px 8px 0' }}
             />
           ))}
         </Box>
       </CardContent>
       <CardActions
         sx={{
-          display: "flex",
-          justifyContent: "flex-end",
-          padding: "0 18px 18px",
+          display: 'flex',
+          justifyContent: 'flex-end',
+          padding: '0 18px 18px',
         }}
       >
         <IconButton LinkComponent="a" href={repositoryLink} target="_blank" color="primary">
