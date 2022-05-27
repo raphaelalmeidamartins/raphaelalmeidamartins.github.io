@@ -2,14 +2,22 @@ import React from 'react';
 import { DiJavascript } from 'react-icons/di';
 import { FaRoute } from 'react-icons/fa';
 import {
-  SiCss3, SiHtml5, SiReact,
+  SiBulma, SiCss3, SiHtml5, SiReact,
   SiRedux, SiSass, SiTestinglibrary
 } from 'react-icons/si';
 
 const toolsData = {
+  bulma: {
+    icon: <SiBulma />,
+    label: 'Bulma',
+  },
   react: {
     icon: <SiReact />,
     label: 'React',
+  },
+  reactContextAPI: {
+    icon: <SiReact />,
+    label: 'Context API',
   },
   reactRouterV5: {
     icon: <FaRoute />,
