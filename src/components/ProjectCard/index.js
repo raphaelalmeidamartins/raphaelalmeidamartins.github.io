@@ -62,6 +62,7 @@ function ProjectCard({
         }}
       >
         <IconButton
+          size="small"
           LinkComponent="a"
           href={repositoryLink}
           target="_blank"
@@ -71,7 +72,12 @@ function ProjectCard({
             <FaGithub />
           </SvgIcon>
         </IconButton>
-        <IconButton LinkComponent="a" href={deployLink} color="primary">
+        <IconButton
+          size="small"
+          LinkComponent="a"
+          href={deployLink}
+          color="primary"
+        >
           <SvgIcon inheritViewBox>
             <FaExternalLinkAlt />
           </SvgIcon>
