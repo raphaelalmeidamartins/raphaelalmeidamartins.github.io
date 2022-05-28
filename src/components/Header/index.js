@@ -10,7 +10,7 @@ function Header() {
 
   return (
     <AppBar>
-      <Container>
+      <Container sx={{ display: 'flex', justifyContent: 'center' }}>
         <ButtonGroup variant="text">
           <Button onClick={ () => navigate('/') } size="large" sx={{ color: 'white' }}>Home</Button>
           <Button onClick={ () => navigate('/about') } size="large" sx={{ color: 'white' }}>Sobre</Button>
