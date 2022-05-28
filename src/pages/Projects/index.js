@@ -6,6 +6,7 @@ import Container from '@mui/system/Container';
 import React, { useEffect, useState } from 'react';
 import ProjectCard from '../../components/ProjectCard';
 import projectsData from '../../data/projectsData';
+import Box from '@mui/system/Box';
 
 function Projects() {
   const [filter, setFilter] = useState('All');
@@ -19,19 +20,22 @@ function Projects() {
 
   return (
     <Container
+      component="main"
       sx={{
         paddingBottom: '52px',
-        paddingTop: '52px',
+        paddingTop: '104px',
       }}
     >
       <Typography variant="h3" element="h1" align="center" gutterBottom>
-        Meus projetos
+          Meus projetos
       </Typography>
-      <ButtonGroup>
-        <Button onClick={ () => setFilter('All') }>All</Button>
-        <Button onClick={ () => setFilter('Front-end') }>Front-end</Button>
-        <Button onClick={ () => setFilter('Back-end') }>Back-end</Button>
-      </ButtonGroup>
+      <Box sx={{ display: 'flex', justifyContent: 'center', marginBottom: '16px' }}>
+        <ButtonGroup>
+          <Button onClick={ () => setFilter('All') }>All</Button>
+          <Button onClick={ () => setFilter('Front-end') }>Front-end</Button>
+          <Button onClick={ () => setFilter('Back-end') }>Back-end</Button>
+        </ButtonGroup>
+      </Box>
       <Grid
         container
         spacing={{ xs: 3, sm: 3, md: 3 }}
@@ -44,6 +48,13 @@ function Projects() {
               <ProjectCard key={project.id} {...project} />
             </Grid>
           ))}
+        {Boolean(!returnFilteredProjects().length) && (
+          <Grid item xs={12} sm={12} md={12}>
+            <Typography variant="body1" align="center" paragraph>
+              Ainda não publiquei projetos de {filter}
+            </Typography>
+          </Grid>
+        )}
       </Grid>
     </Container>
   );
