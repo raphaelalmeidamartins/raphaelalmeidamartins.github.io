@@ -91,7 +91,12 @@ ProjectCard.propTypes = {
   screenshot: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  tools: PropTypes.arrayOf(PropTypes.string).isRequired,
+  tools: PropTypes.arrayOf(
+    PropTypes.objectOf(PropTypes.oneOfType([
+      PropTypes.string,
+      PropTypes.node]
+    )),
+  ).isRequired,
   repositoryLink: PropTypes.string.isRequired,
   deployLink: PropTypes.string.isRequired,
 };
