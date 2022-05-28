@@ -1,16 +1,24 @@
+import AppBar from '@mui/material/AppBar';
+import Button from '@mui/material/Button';
+import ButtonGroup from '@mui/material/ButtonGroup';
+import Container from '@mui/system/Container';
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 function Header() {
+  const navigate = useNavigate();
+
   return (
-    <header>
-      <nav>
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/about">Sobre</NavLink>
-        <NavLink to="/projects">Projetos</NavLink>
-        <NavLink to="/contact">Contato</NavLink>
-      </nav>
-    </header>
+    <AppBar>
+      <Container>
+        <ButtonGroup variant="text">
+          <Button onClick={ () => navigate('/') } size="large" sx={{ color: 'white' }}>Home</Button>
+          <Button onClick={ () => navigate('/about') } size="large" sx={{ color: 'white' }}>Sobre</Button>
+          <Button onClick={ () => navigate('/projects') } size="large" sx={{ color: 'white' }}>Projetos</Button>
+          <Button onClick={ () => navigate('/contact') } size="large" sx={{ color: 'white' }}>Contato</Button>
+        </ButtonGroup>
+      </Container>
+    </AppBar>
   );
 }
 
