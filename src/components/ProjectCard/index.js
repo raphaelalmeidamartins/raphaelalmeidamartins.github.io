@@ -20,7 +20,7 @@ function ProjectCard({
   deployLink,
 }) {
   return (
-    <Card sx={{ maxWidth: 400, height: '100%', position: 'relative' }}>
+    <Card sx={{ height: '100%', position: 'relative' }}>
       <CardMedia
         component="img"
         height="290"
