@@ -5,6 +5,7 @@ const projectsData = [
   {
     id: 1,
     title: 'Sonic Trunfo',
+    type: 'Front-end',
     screenshot: screenshotsData[1],
     description:
       'Jogo de cartas estilo Super Trunfo com personagens da série Sonic',
@@ -25,6 +26,7 @@ const projectsData = [
   {
     id: 2,
     title: 'Trivia',
+    type: 'Front-end',
     screenshot: screenshotsData[2],
     description:
       'Jogo de trivia desenvolvido em React usando uma API pública',
@@ -44,6 +46,7 @@ const projectsData = [
   {
     id: 3,
     title: 'Online Store',
+    type: 'Front-end',
     screenshot: screenshotsData[3],
     description:
       'Aplicação SPA React de loja online usando uma API pública',
@@ -63,6 +66,7 @@ const projectsData = [
   {
     id: 4,
     title: 'Wallet',
+    type: 'Front-end',
     screenshot: screenshotsData[4],
     description:
       'Aplicação de carteira usando taxas de câmbio de uma API pública',
@@ -83,6 +87,7 @@ const projectsData = [
   {
     id: 5,
     title: 'To-Do List',
+    type: 'Front-end',
     screenshot: screenshotsData[5],
     description:
       'Aplicação de lista de tarefas desenvolvida com JavaScript puro',
@@ -99,6 +104,7 @@ const projectsData = [
   {
     id: 6,
     title: 'Trybewarts',
+    type: 'Front-end',
     screenshot: screenshotsData[6],
     description:
       'Página responsiva com formulário HTML e inspirada em Harry Potter',
