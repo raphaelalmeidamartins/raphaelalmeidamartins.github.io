@@ -9,7 +9,7 @@ function Header() {
   const navigate = useNavigate();
 
   return (
-    <AppBar>
+    <AppBar sx={{ padding: '4px 0' }}>
       <Container sx={{ display: 'flex', justifyContent: 'center' }}>
         <ButtonGroup variant="text">
           <Button onClick={ () => navigate('/') } size="large" sx={{ color: 'white' }}>Home</Button>
