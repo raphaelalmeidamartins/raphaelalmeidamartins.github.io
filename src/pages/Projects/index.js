@@ -3,16 +3,18 @@ import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';
 import Grid from '@mui/material/Grid';
 import Container from '@mui/system/Container';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import ProjectCard from '../../components/ProjectCard';
 import projectsData from '../../data/projectsData';
 
 function Projects() {
   const [filter, setFilter] = useState('All');
 
+  useEffect(() => setFilter('All'), []);
+
   const returnFilteredProjects = () => {
     return projectsData
-      .filter(({ type }) => type === filter || filter === 'all');
+      .filter(({ type }) => type === filter || filter === 'All');
   };
 
   return (
