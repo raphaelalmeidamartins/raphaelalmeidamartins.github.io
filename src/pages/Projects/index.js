@@ -27,7 +27,7 @@ function Projects() {
       <Box
         sx={{ display: 'flex', justifyContent: 'center', marginBottom: '16px' }}
       >
-        <ButtonGroup>
+        <ButtonGroup sx={{ marginBottom: '18px' }}>
           <Button onClick={() => setFilter('All')}>All</Button>
           <Button onClick={() => setFilter('Front-end')}>Front-end</Button>
           <Button onClick={() => setFilter('Back-end')}>Back-end</Button>
