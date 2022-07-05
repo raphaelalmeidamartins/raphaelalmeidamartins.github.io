@@ -4,19 +4,12 @@ import Button from '@mui/material/Button';
 import FormControl from '@mui/material/FormControl';
 import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
-import Container from '@mui/system/Container';
 
 function Contact() {
   return (
-    <Container
-      component="main"
-      sx={{
-        paddingBottom: '52px',
-        paddingTop: '104px',
-      }}
-    >
+    <>
       <Typography variant="h3" element="h1" align="center" gutterBottom>
-        Contato
+          Contato
       </Typography>
       <Box
         component="form"
@@ -62,11 +55,11 @@ function Contact() {
         </FormControl>
         <FormControl>
           <Button type="submit" variant="contained" size="large" sx={{ marginTop: '0.7em' }}>
-            Enviar
+              Enviar
           </Button>
         </FormControl>
       </Box>
-    </Container>
+    </>
   );
 }
 
