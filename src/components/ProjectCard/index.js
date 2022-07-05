@@ -1,4 +1,4 @@
-import { SvgIcon } from '@mui/material';
+import React from 'react';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
@@ -8,7 +8,7 @@ import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/system/Box';
 import PropTypes from 'prop-types';
-import * as React from 'react';
+import SvgIcon from '@mui/material/SvgIcon';
 import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 
 function ProjectCard({
