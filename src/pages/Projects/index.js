@@ -6,6 +6,7 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/system/Box';
 import { useEffect, useState } from 'react';
 import ProjectCard from '../../components/ProjectCard';
+import Wrapper from '../../components/Wrapper';
 import projectsData from '../../data/projectsData';
 
 function Projects() {
@@ -20,9 +21,9 @@ function Projects() {
   };
 
   return (
-    <>
+    <Wrapper sectionId="projects">
       <Typography variant="h3" element="h1" align="center" gutterBottom>
-        Meus projetos
+          Meus projetos
       </Typography>
       <Box
         sx={{ display: 'flex', justifyContent: 'center', marginBottom: '16px' }}
@@ -47,12 +48,12 @@ function Projects() {
         {Boolean(!returnFilteredProjects().length) && (
           <Grid item xs={12} sm={12} md={12}>
             <Typography variant="body1" align="center" paragraph>
-              Ainda não publiquei projetos de {filter}
+                Ainda não publiquei projetos de {filter}
             </Typography>
           </Grid>
         )}
       </Grid>
-    </>
+    </Wrapper>
   );
 }
 

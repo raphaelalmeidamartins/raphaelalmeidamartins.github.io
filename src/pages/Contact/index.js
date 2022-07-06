@@ -4,12 +4,13 @@ import Button from '@mui/material/Button';
 import FormControl from '@mui/material/FormControl';
 import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
+import Wrapper from '../../components/Wrapper';
 
 function Contact() {
   return (
-    <>
+    <Wrapper sectionId="contact">
       <Typography variant="h3" element="h1" align="center" gutterBottom>
-          Contato
+        Contato
       </Typography>
       <Box
         component="form"
@@ -22,26 +23,14 @@ function Contact() {
         method="POST"
         autoComplete="off"
       >
-        <FormControl sx={{ display: 'flex' }}>
-          <TextField
-            label="Nome"
-            name="name"
-            required
-          />
+        <FormControl>
+          <TextField label="Nome" name="name" required />
         </FormControl>
         <FormControl>
-          <TextField
-            label="Email"
-            name="email"
-            required
-          />
+          <TextField label="Email" name="email" required />
         </FormControl>
         <FormControl>
-          <TextField
-            label="Assunto"
-            name="subject"
-            required
-          />
+          <TextField label="Assunto" name="subject" required />
         </FormControl>
         <FormControl>
           <TextField
@@ -53,13 +42,22 @@ function Contact() {
             required
           />
         </FormControl>
-        <FormControl>
-          <Button type="submit" variant="contained" size="large" sx={{ marginTop: '0.7em' }}>
-              Enviar
+        <FormControl sx={{ display: 'flex', flexFlow: 'row nowrap', justifyContent: 'center' }}>
+          <Button
+            type="submit"
+            variant="contained"
+            size="large"
+            sx={{
+              marginTop: '0.7em',
+              maxWidth: '80%',
+              width: '200px',
+            }}
+          >
+            Enviar
           </Button>
         </FormControl>
       </Box>
-    </>
+    </Wrapper>
   );
 }
 
