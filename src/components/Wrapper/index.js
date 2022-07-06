@@ -2,10 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Container from '@mui/system/Container';
 
-function Wrapper({ children }) {
+function Wrapper({ children, sectionId }) {
   return (
     <Container
-      component="main"
+      id={ sectionId }
+      component="section"
       sx={{
         minHeight: '100vh',
         paddingBottom: '104px',
@@ -22,6 +23,7 @@ Wrapper.propTypes = {
     PropTypes.node,
     PropTypes.arrayOf(PropTypes.node),
   ]),
+  sectionId: PropTypes.string,
 };
 
 export default Wrapper;
