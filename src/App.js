@@ -5,7 +5,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
-import background from './assets/other-images/scattered-forcefields.svg';
+import background from './assets/other-images/scattered-forcefields-dark.svg';
 
 function App() {
   return (
