@@ -1,4 +1,5 @@
 import React from 'react';
+import { Typography } from '@mui/material';
 import AppBar from '@mui/material/AppBar';
 import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';
@@ -11,7 +12,16 @@ function Header() {
         padding: '4px 0',
       }}
     >
-      <Container sx={{ display: 'flex', justifyContent: 'right' }}>
+      <Container
+        sx={{
+          alignItems: 'center',
+          display: 'flex',
+          justifyContent: 'space-between',
+        }}
+      >
+        <Typography variant="h5" element="h1" align="left">
+          {'<RaphaelMartins />'}
+        </Typography>
         <ButtonGroup component="nav" variant="text">
           <Button
             component="a"
