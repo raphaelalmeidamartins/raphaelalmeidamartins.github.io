@@ -80,7 +80,9 @@ function Footer() {
           align="center"
           paragraph
         >
-          2022 © Raphael Martins. Alguns direitos reservados.
+          2022 © Raphael Martins. Alguns direitos reservados<br />
+          Desenvolvido com React.js, MUI e Emotion.js<br />
+          Background por <a href="https://www.svgbackgrounds.com/">SVGBackgrounds.com</a>
         </Typography>
       </Container>
     </Box>
