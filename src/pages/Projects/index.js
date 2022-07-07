@@ -21,15 +21,18 @@ function Projects() {
   };
 
   return (
-    <Wrapper sectionId="projects">
-      <Typography variant="h3" element="h1" align="center" gutterBottom>
-          Meus projetos
+    <Wrapper sectionId="projects" minHeight="100vh">
+      <Typography variant="h2" element="h1" align="center" gutterBottom>
+        Meus projetos
+      </Typography>
+      <Typography variant="body1" element="p" align="center" paragraph>
+        Confira abaixo alguns projetos que desenvolvi na minha trajetória como desenvolvedor 
       </Typography>
       <Box
         sx={{ display: 'flex', justifyContent: 'center', marginBottom: '16px' }}
       >
-        <ButtonGroup sx={{ marginBottom: '18px' }}>
-          <Button onClick={() => setFilter('All')}>All</Button>
+        <ButtonGroup variant="contained" sx={{ marginBottom: '18px' }}>
+          <Button onClick={() => setFilter('All')}>Todos</Button>
           <Button onClick={() => setFilter('Front-end')}>Front-end</Button>
           <Button onClick={() => setFilter('Back-end')}>Back-end</Button>
         </ButtonGroup>
@@ -48,7 +51,7 @@ function Projects() {
         {Boolean(!returnFilteredProjects().length) && (
           <Grid item xs={12} sm={12} md={12}>
             <Typography variant="body1" align="center" paragraph>
-                Ainda não publiquei projetos de {filter}
+              Ainda não publiquei projetos de {filter}
             </Typography>
           </Grid>
         )}
