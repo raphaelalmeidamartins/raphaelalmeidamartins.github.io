@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.1c3d455a.js",
+    "main.css": "/static/css/main.608ce272.css",
+    "main.js": "/static/js/main.d441a5c6.js",
     "static/js/787.3fd8f1df.chunk.js": "/static/js/787.3fd8f1df.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/me3.jpg": "/static/media/me3.11c39f4115f6b8a3742d.jpg",
+    "static/media/sonic-trunfo.png": "/static/media/sonic-trunfo.f49752c37e676d0ba3db.png",
+    "static/media/trivia.png": "/static/media/trivia.873874def74532750368.png",
+    "static/media/online-store.png": "/static/media/online-store.e49a5de8ba457095fb94.png",
+    "static/media/trybewarts.png": "/static/media/trybewarts.c48596e686ef083bbf66.png",
+    "static/media/todo-list.png": "/static/media/todo-list.a9c92b25058bce82a2b3.png",
+    "static/media/wallet.png": "/static/media/wallet.1907f72ca06ec8078bbf.png",
+    "static/media/scattered-forcefields-dark.svg": "/static/media/scattered-forcefields-dark.136ce18b4ed152cc2f431c18b113a01f.svg",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.1c3d455a.js.map": "/static/js/main.1c3d455a.js.map",
+    "main.608ce272.css.map": "/static/css/main.608ce272.css.map",
+    "main.d441a5c6.js.map": "/static/js/main.d441a5c6.js.map",
     "787.3fd8f1df.chunk.js.map": "/static/js/787.3fd8f1df.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.1c3d455a.js"
+    "static/css/main.608ce272.css",
+    "static/js/main.d441a5c6.js"
   ]
 }
