@@ -9,8 +9,11 @@ import Wrapper from '../../components/Wrapper';
 function Contact() {
   return (
     <Wrapper sectionId="contact">
-      <Typography variant="h3" element="h1" align="center" gutterBottom>
-        Contato
+      <Typography variant="h2" element="h1" align="center" gutterBottom>
+        Fale comigo
+      </Typography>
+      <Typography variant="body1" element="p" align="center" paragraph>
+        Deseja saber mais alguma coisa? Preencha os campos abaixo que em breve retornarei o seu contato 
       </Typography>
       <Box
         component="form"
@@ -24,16 +27,17 @@ function Contact() {
         autoComplete="off"
       >
         <FormControl>
-          <TextField label="Nome" name="name" required />
+          <TextField variant="filled" label="Nome" name="name" required />
         </FormControl>
         <FormControl>
-          <TextField label="Email" name="email" required />
+          <TextField variant="filled" label="Email" name="email" required />
         </FormControl>
         <FormControl>
-          <TextField label="Assunto" name="subject" required />
+          <TextField variant="filled" label="Assunto" name="subject" required />
         </FormControl>
         <FormControl>
           <TextField
+            variant="filled"
             label="Mensagem"
             name="message"
             rows="10"
@@ -48,12 +52,12 @@ function Contact() {
             variant="contained"
             size="large"
             sx={{
-              marginTop: '0.7em',
+              marginTop: '2.1em',
               maxWidth: '80%',
               width: '200px',
             }}
           >
-            Enviar
+            Enviar contato
           </Button>
         </FormControl>
       </Box>
