@@ -42,6 +42,7 @@ function ProjectCard({
           {tools.map(({ icon, label }) => (
             <Chip
               key={label}
+              variant="outlined"
               size="small"
               icon={icon}
               label={label}
