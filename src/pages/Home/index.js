@@ -85,6 +85,8 @@ function Home() {
           <Button
             variant="outlined"
             size="large"
+            component="a"
+            href="https://drive.google.com/file/d/1hzMnn-ha0EdUKk6YE0A8JwGVlidbwvjR/view?usp=sharing"
             sx={{ width: '200px', transition: '400ms' }}
           >
             Baixar CV
