@@ -1,10 +1,11 @@
 import React from 'react';
 import { DiJavascript } from 'react-icons/di';
-import { FaRoute, FaFontAwesomeFlag } from 'react-icons/fa';
+import { FaRoute, FaFontAwesomeFlag, FaNodeJs, FaDocker } from 'react-icons/fa';
 import {
   SiBulma, SiCss3, SiHtml5, SiReact,
-  SiRedux, SiSass, SiTestinglibrary
+  SiRedux, SiSass, SiTestinglibrary, SiExpress, SiMysql, SiMocha, SiChai, SiJest,
 } from 'react-icons/si';
+import { BiTestTube } from 'react-icons/bi';
 
 const toolsData = {
   fontAwesome: {
@@ -59,6 +60,38 @@ const toolsData = {
     icon: <SiSass />,
     label: 'Sass',
   },
+  node: {
+    icon: <FaNodeJs />,
+    label: 'Node.js',
+  },
+  express: {
+    icon: <SiExpress />,
+    label: 'Express.js',
+  },
+  docker: {
+    icon: <FaDocker />,
+    label: 'Docker',
+  },
+  mySQL: {
+    icon: <SiMysql />,
+    label: 'MySQL',
+  },
+  mocha: {
+    icon: <SiMocha />,
+    label: 'Mocha',
+  },
+  chai: {
+    icon: <SiChai />,
+    label: 'Chai',
+  },
+  sinon: {
+    icon: <BiTestTube />,
+    label: 'Sinon',
+  },
+  jest: {
+    icon: <SiJest />,
+    label: 'Jest',
+  }
 };
 
 export default toolsData;

@@ -117,6 +117,42 @@ const projectsData = [
     repositoryLink: 'https://github.com/raphaelalmeidamartins/trybewarts',
     deployLink: 'https://raphaelalmeidamartins.github.io/trybewarts/',
   },
+  {
+    id: 7,
+    title: 'Store Manager',
+    type: 'Back-end',
+    screenshot: screenshotsData[7],
+    description:
+      'API RESTful desenvolvida em Node.js e Express.js com o banco de dados MySQL',
+    tools: [
+      toolsData.javaScript,
+      toolsData.node,
+      toolsData.express,
+      toolsData.mySQL,
+      toolsData.docker,
+      toolsData.mocha,
+      toolsData.chai,
+      toolsData.sinon,
+    ],
+    repositoryLink: 'https://github.com/raphaelalmeidamartins/store-manager',
+    deployLink: 'https://github.com/raphaelalmeidamartins/store-manager',
+  },
+  {
+    id: 8,
+    title: 'Tests with RTL',
+    type: 'Front-end',
+    screenshot: screenshotsData[8],
+    description:
+      'Projeto de testes no Front-end com a React Testing Library',
+    tools: [
+      toolsData.javaScript,
+      toolsData.react,
+      toolsData.rtl,
+      toolsData.jest,
+    ],
+    repositoryLink: 'https://github.com/raphaelalmeidamartins/tests-with-react-testing-library',
+    deployLink: 'https://github.com/raphaelalmeidamartins/tests-with-react-testing-library',
+  },
 ];
 
 export default projectsData;
