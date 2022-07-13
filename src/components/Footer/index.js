@@ -1,14 +1,19 @@
-import React from 'react';
 import Box from '@mui/material/Box';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/system/Container';
+import * as React from 'react';
 import { FaGithubAlt, FaLinkedinIn } from 'react-icons/fa';
 import { MdMail } from 'react-icons/md';
+import { AppContext } from '../../context';
 
 function Footer() {
+  const { lang } = React.useContext(AppContext);
+
   return (
-    <Box sx={{ backgroundColor: 'primary.main', color: 'primary.contrastText' }}>
+    <Box
+      sx={{ backgroundColor: 'primary.main', color: 'primary.contrastText' }}
+    >
       <Container
         component="main"
         sx={{
@@ -74,16 +79,25 @@ function Footer() {
             <MdMail />
           </IconButton>
         </Box>
-        <Typography
-          variant="body1"
-          element="p"
-          align="center"
-          paragraph
-        >
-          2022 © Raphael Martins. Alguns direitos reservados<br />
-          Desenvolvido com React.js, MUI e Emotion.js<br />
-          Background por <a href="https://www.svgbackgrounds.com/">SVGBackgrounds.com</a>
-        </Typography>
+        {lang === 'BR' ? (
+          <Typography variant="body1" element="p" align="center" paragraph>
+            2022 © Raphael Martins. Alguns direitos reservados
+            <br />
+            Desenvolvido com React.js, MUI e Emotion.js
+            <br />
+            Background por{' '}
+            <a href="https://www.svgbackgrounds.com/">SVGBackgrounds.com</a>
+          </Typography>
+        ) : (
+          <Typography variant="body1" element="p" align="center" paragraph>
+            2022 © Raphael Martins. Some rights reserved
+            <br />
+            Developed with React.js, MUI and Emotion.js
+            <br />
+            Background by{' '}
+            <a href="https://www.svgbackgrounds.com/">SVGBackgrounds.com</a>
+          </Typography>
+        )}
       </Container>
     </Box>
   );

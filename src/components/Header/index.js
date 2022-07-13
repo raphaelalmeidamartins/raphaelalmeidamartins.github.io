@@ -9,16 +9,45 @@ import MenuItem from '@mui/material/MenuItem';
 import Toolbar from '@mui/material/Toolbar';
 import * as React from 'react';
 import { FaGithubAlt, FaLinkedinIn } from 'react-icons/fa';
+import { AppContext } from '../../context';
+import BrFlag from '../BrFlag';
+import LanguageChip from '../LanguageChip';
+import UsFlag from '../UsFlag';
 
 const sections = [
-  { name: 'Inicio', href: '#home' },
-  { name: 'Sobre', href: '#about' },
-  { name: 'Projetos', href: '#projects' },
-  { name: 'Contato', href: '#contact' },
+  {
+    name: {
+      EN: 'Home',
+      BR: 'Inicio',
+    },
+    href: '#home',
+  },
+  {
+    name: {
+      EN: 'About',
+      BR: 'Sobre',
+    },
+    href: '#about',
+  },
+  {
+    name: {
+      EN: 'Projects',
+      BR: 'Projetos',
+    },
+    href: '#projects',
+  },
+  {
+    name: {
+      EN: 'Contact',
+      BR: 'Contato',
+    },
+    href: '#contact',
+  },
 ];
 
 const Header = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
+  const { lang } = React.useContext(AppContext);
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
@@ -62,14 +91,13 @@ const Header = () => {
               }}
             >
               {sections.map(({ name, href }) => (
-                <MenuItem key={name} onClick={handleCloseNavMenu}>
+                <MenuItem key={href} onClick={handleCloseNavMenu}>
                   <Button
                     variant="text"
                     component="a"
                     href={href}
-                    textAlign="center"
                   >
-                    {name}
+                    {name[lang]}
                   </Button>
                 </MenuItem>
               ))}
@@ -78,17 +106,21 @@ const Header = () => {
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {sections.map(({ name, href }) => (
               <Button
-                key={name}
+                key={href}
                 component="a"
                 onClick={handleCloseNavMenu}
                 href={href}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
-                {name}
+                {name[lang]}
               </Button>
             ))}
           </Box>
-          <Box sx={{ flexGrow: 0 }}>
+          <Box sx={{ flexGrow: 0, alignItems: 'center', display: 'flex' }}>
+            <LanguageChip icon={<BrFlag />} label="BR" />
+            <LanguageChip icon={<UsFlag />} label="EN" />
+          </Box>
+          <Box sx={{ flexGrow: 0, alignItems: 'center', display: 'flex' }}>
             <IconButton
               size="large"
               component="a"

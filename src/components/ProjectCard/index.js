@@ -1,15 +1,16 @@
-import React from 'react';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Chip from '@mui/material/Chip';
 import IconButton from '@mui/material/IconButton';
+import SvgIcon from '@mui/material/SvgIcon';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/system/Box';
 import PropTypes from 'prop-types';
-import SvgIcon from '@mui/material/SvgIcon';
+import * as React from 'react';
 import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
+import { AppContext } from '../../context';
 
 function ProjectCard({
   screenshot,
@@ -19,6 +20,8 @@ function ProjectCard({
   repositoryLink,
   deployLink,
 }) {
+  const { lang } = React.useContext(AppContext);
+
   return (
     <Card sx={{ height: '100%', position: 'relative' }}>
       <CardMedia
@@ -32,7 +35,7 @@ function ProjectCard({
           {title}
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          {description}
+          {description[lang]}
         </Typography>
         <Box
           sx={{
@@ -91,12 +94,9 @@ function ProjectCard({
 ProjectCard.propTypes = {
   screenshot: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
+  description: PropTypes.objectOf(PropTypes.string).isRequired,
   tools: PropTypes.arrayOf(
-    PropTypes.objectOf(PropTypes.oneOfType([
-      PropTypes.string,
-      PropTypes.node]
-    )),
+    PropTypes.objectOf(PropTypes.oneOfType([PropTypes.string, PropTypes.node]))
   ).isRequired,
   repositoryLink: PropTypes.string.isRequired,
   deployLink: PropTypes.string.isRequired,

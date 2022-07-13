@@ -1,12 +1,15 @@
-import React from 'react';
+import * as React from 'react';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/system/Box';
 import { RiArrowDownSLine } from 'react-icons/ri';
 import Wrapper from '../../components/Wrapper';
+import { AppContext } from '../../context';
 
 function Home() {
+  const { lang } = React.useContext(AppContext);
+
   return (
     <Wrapper sectionId="home" minHeight="100vh">
       <Box
@@ -80,7 +83,7 @@ function Home() {
               width: '200px',
             }}
           >
-            Entre em contato
+            { lang === 'BR' ? 'Entre em contato' : 'Get in touch'}
           </Button>
           <Button
             variant="outlined"
@@ -89,7 +92,7 @@ function Home() {
             href="https://drive.google.com/file/d/1hzMnn-ha0EdUKk6YE0A8JwGVlidbwvjR/view?usp=sharing"
             sx={{ width: '200px', transition: '400ms' }}
           >
-            Baixar CV
+            { lang === 'BR' ? 'Baixar CV' : 'Download CV'}
           </Button>
         </Box>
       </Box>

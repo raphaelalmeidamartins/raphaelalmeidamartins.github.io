@@ -1,10 +1,13 @@
-import React from 'react';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
+import * as React from 'react';
+import { AppContext } from '../../context';
 import SkillBadge from '../SkillBadge';
 
 function Skills() {
+  const { lang } = React.useContext(AppContext);
+
   return (
     <>
       <Typography
@@ -13,7 +16,7 @@ function Skills() {
         align="center"
         sx={{ margin: '76px 0' }}
       >
-        Habilidades e ferramentas
+        {lang === 'BR' ? 'Habilidades e ferramentas' : 'Skills and Tools'}
       </Typography>
       <Grid
         container
@@ -97,7 +100,7 @@ function Skills() {
         <Grid item xs={4} sm={4} md={6}>
           <Paper elevation={3} sx={{ padding: '18px', height: '100%' }}>
             <Typography variant="h4" element="h2" align="center" gutterBottom>
-              Testes
+              {lang === 'BR' ? 'Testes' : 'Tests'}
             </Typography>
             <SkillBadge
               src="https://img.shields.io/badge/Jest-323330?style=for-the-badge&logo=Jest&logoColor=white"

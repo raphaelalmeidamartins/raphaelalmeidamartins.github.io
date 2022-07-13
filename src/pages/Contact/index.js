@@ -1,19 +1,24 @@
-import React from 'react';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import FormControl from '@mui/material/FormControl';
 import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
+import * as React from 'react';
 import Wrapper from '../../components/Wrapper';
+import { AppContext } from '../../context';
 
 function Contact() {
+  const { lang } = React.useContext(AppContext);
+
   return (
     <Wrapper sectionId="contact">
       <Typography variant="h2" element="h1" align="center" gutterBottom>
-        Fale comigo
+        {lang === 'BR' ? 'Fale comigo' : 'Get in touch'}
       </Typography>
       <Typography variant="body1" element="p" align="center" paragraph>
-        Deseja saber mais alguma coisa? Preencha os campos abaixo que em breve retornarei o seu contato 
+        {lang === 'BR'
+          ? 'Deseja saber mais alguma coisa? Preencha os campos abaixo que em breve retornarei o seu contato'
+          : 'Do you want to know more about me? Send me a message below and I\'ll answer as soon as I can'}
       </Typography>
       <Box
         component="form"
@@ -27,13 +32,23 @@ function Contact() {
         autoComplete="off"
       >
         <FormControl>
-          <TextField variant="filled" label="Nome" name="name" required />
+          <TextField
+            variant="filled"
+            label={lang === 'BR' ? 'Nome' : 'Name'}
+            name="name"
+            required
+          />
         </FormControl>
         <FormControl>
           <TextField variant="filled" label="Email" name="email" required />
         </FormControl>
         <FormControl>
-          <TextField variant="filled" label="Assunto" name="subject" required />
+          <TextField
+            variant="filled"
+            label={lang === 'BR' ? 'Assunto' : 'Subject'}
+            name="subject"
+            required
+          />
         </FormControl>
         <FormControl>
           <TextField
@@ -46,7 +61,13 @@ function Contact() {
             required
           />
         </FormControl>
-        <FormControl sx={{ display: 'flex', flexFlow: 'row nowrap', justifyContent: 'center' }}>
+        <FormControl
+          sx={{
+            display: 'flex',
+            flexFlow: 'row nowrap',
+            justifyContent: 'center',
+          }}
+        >
           <Button
             type="submit"
             variant="contained"
@@ -57,7 +78,7 @@ function Contact() {
               width: '200px',
             }}
           >
-            Enviar contato
+            {lang === 'BR' ? 'Enviar contato' : 'Send message'}
           </Button>
         </FormControl>
       </Box>

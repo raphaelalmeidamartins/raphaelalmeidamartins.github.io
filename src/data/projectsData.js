@@ -7,8 +7,10 @@ const projectsData = [
     title: 'Sonic Trunfo',
     type: 'Front-end',
     screenshot: screenshotsData[1],
-    description:
-      'Jogo de cartas estilo Super Trunfo com personagens da série Sonic',
+    description: {
+      EN: 'Top Trumps-style card game with Sonic the Hedgehog characters',
+      BR: 'Jogo de cartas estilo Super Trunfo com personagens da série Sonic',
+    },
     tools: [
       toolsData.react,
       toolsData.reactRouterV6,
@@ -28,8 +30,10 @@ const projectsData = [
     title: 'Trivia',
     type: 'Front-end',
     screenshot: screenshotsData[2],
-    description:
-      'Jogo de trivia desenvolvido em React usando uma API pública',
+    description: {
+      EN: 'Trivia game React application fetching for questions\' data from a public API',
+      BR: 'Jogo de trivia desenvolvido em React usando uma API pública',
+    },
     tools: [
       toolsData.react,
       toolsData.reactRouterV5,
@@ -48,8 +52,10 @@ const projectsData = [
     title: 'Online Store',
     type: 'Front-end',
     screenshot: screenshotsData[3],
-    description:
-      'Aplicação SPA React de loja online usando uma API pública',
+    description: {
+      EN: 'SPA online store application fetching products\' data from a public API',
+      BR: 'Aplicação SPA React de loja online usando uma API pública',
+    },
     tools: [
       toolsData.react,
       toolsData.reactRouterV5,
@@ -60,16 +66,20 @@ const projectsData = [
       toolsData.css,
       toolsData.sass,
     ],
-    repositoryLink: 'https://github.com/raphaelalmeidamartins/front-end-online-store',
-    deployLink: 'https://raphaelalmeidamartins.github.io/front-end-online-store/#/',
+    repositoryLink:
+      'https://github.com/raphaelalmeidamartins/front-end-online-store',
+    deployLink:
+      'https://raphaelalmeidamartins.github.io/front-end-online-store/#/',
   },
   {
     id: 4,
     title: 'Wallet',
     type: 'Front-end',
     screenshot: screenshotsData[4],
-    description:
-      'Aplicação de carteira usando taxas de câmbio de uma API pública',
+    description: {
+      EN: 'Wallet application fetching for curriencies\' exchange rates from a public API',
+      BR: 'Aplicação de carteira usando taxas de câmbio de uma API pública',
+    },
     tools: [
       toolsData.react,
       toolsData.reactRouterV5,
@@ -89,8 +99,10 @@ const projectsData = [
     title: 'To-Do List',
     type: 'Front-end',
     screenshot: screenshotsData[5],
-    description:
-      'Aplicação de lista de tarefas desenvolvida com JavaScript puro',
+    description: {
+      EN: 'To-Do List application developed with vanilla JavaScript',
+      BR: 'Aplicação de lista de tarefas desenvolvida com JavaScript puro',
+    },
     tools: [
       toolsData.javaScript,
       toolsData.html,
@@ -106,8 +118,10 @@ const projectsData = [
     title: 'Trybewarts',
     type: 'Front-end',
     screenshot: screenshotsData[6],
-    description:
-      'Página responsiva com formulário HTML e inspirada em Harry Potter',
+    description: {
+      EN: 'Responsive web page with HTML forms and inspired by the Harry Potter series',
+      BR: 'Página responsiva com formulário HTML e inspirada em Harry Potter',
+    },
     tools: [
       toolsData.javaScript,
       toolsData.html,
@@ -122,8 +136,10 @@ const projectsData = [
     title: 'Store Manager',
     type: 'Back-end',
     screenshot: screenshotsData[7],
-    description:
-      'API RESTful desenvolvida em Node.js e Express.js com o banco de dados MySQL',
+    description: {
+      EN: 'RESTful API developed with Node.js and Express.js with MySQL database',
+      BR: 'API RESTful desenvolvida em Node.js e Express.js com o banco de dados MySQL',
+    },
     tools: [
       toolsData.javaScript,
       toolsData.node,
@@ -142,16 +158,20 @@ const projectsData = [
     title: 'Tests with RTL',
     type: 'Front-end',
     screenshot: screenshotsData[8],
-    description:
-      'Projeto de testes no Front-end com a React Testing Library',
+    description: {
+      EN: 'Front-end testing projects with React Testing Library',
+      BR: 'Projeto de testes no Front-end com a React Testing Library',
+    },
     tools: [
       toolsData.javaScript,
       toolsData.react,
       toolsData.rtl,
       toolsData.jest,
     ],
-    repositoryLink: 'https://github.com/raphaelalmeidamartins/tests-with-react-testing-library',
-    deployLink: 'https://github.com/raphaelalmeidamartins/tests-with-react-testing-library',
+    repositoryLink:
+      'https://github.com/raphaelalmeidamartins/tests-with-react-testing-library',
+    deployLink:
+      'https://github.com/raphaelalmeidamartins/tests-with-react-testing-library',
   },
 ];
 

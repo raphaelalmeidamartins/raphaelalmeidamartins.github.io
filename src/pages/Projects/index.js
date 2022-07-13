@@ -1,18 +1,17 @@
-import React from 'react';
+import * as React from 'react';
 import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/system/Box';
-import { useEffect, useState } from 'react';
 import ProjectCard from '../../components/ProjectCard';
 import Wrapper from '../../components/Wrapper';
 import projectsData from '../../data/projectsData';
 
 function Projects() {
-  const [filter, setFilter] = useState('All');
+  const [filter, setFilter] = React.useState('All');
 
-  useEffect(() => setFilter('All'), []);
+  React.useEffect(() => setFilter('All'), []);
 
   const returnFilteredProjects = () => {
     return projectsData.filter(
