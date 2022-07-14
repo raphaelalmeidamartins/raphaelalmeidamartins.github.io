@@ -53,7 +53,7 @@ function Contact() {
         <FormControl>
           <TextField
             variant="filled"
-            label="Mensagem"
+            label={lang === 'BR' ? 'Mensagem' : 'Message'}
             name="message"
             rows="10"
             maxLength="1000"
