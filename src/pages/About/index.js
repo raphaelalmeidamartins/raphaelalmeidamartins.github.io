@@ -120,11 +120,10 @@ function About() {
                     align="left"
                     paragraph
                   >
-                    I am Raphael Martins, a Web developer in the making. I
-                    choose the software development area because I believe
-                    technology is a powerful tool capable of changing the world
-                    for the better.{' '}
-                    <strong>I want to be a part of that.</strong>
+                    I am Raphael Martins, a Web developer in the making. I chose
+                    the software development area because I believe technology
+                    is a powerful tool capable of changing the world for the
+                    better. <strong>I want to be a part of that.</strong>
                   </Typography>
                   <Typography
                     variant="body1"
@@ -133,12 +132,12 @@ function About() {
                     paragraph
                   >
                     Before I discovered my passion for coding, I took a Graphic
-                    Design course and had a degree in Financial Management.
+                    Design course and graduated in Financial Management.
                     Although I did not follow any of these career paths, this
                     previous knowledge gave me some attractive characteristics
-                    as a developer. The design background makes my job with CSS
-                    easier. While my experience in financial mathematics helps
-                    me with the logic of my algorithms.
+                    as a developer. The design background is an asset while
+                    working with CSS, and my experience in financial mathematics
+                    helps me with the logic of my algorithms.
                   </Typography>
                   <Typography
                     variant="body1"
@@ -146,8 +145,8 @@ function About() {
                     align="left"
                     paragraph
                   >
-                    I am a creative person who takes initiative. The things I
-                    value the most in the work environment are{' '}
+                    I am a creative with initiative. The things I value the most
+                    in the work environment are{' '}
                     <strong>commitment and teamwork.</strong>
                   </Typography>
                 </>
