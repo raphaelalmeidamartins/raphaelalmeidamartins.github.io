@@ -95,6 +95,14 @@ function Skills() {
               src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white"
               alt="Docker"
             />
+            <SkillBadge
+              src="https://img.shields.io/badge/sequelize-323330?style=for-the-badge&logo=sequelize&logoColor=blue"
+              alt="Sequelize"
+            />
+            <SkillBadge
+              src="https://img.shields.io/badge/json%20web%20tokens-323330?style=for-the-badge&logo=json-web-tokens&logoColor=pink"
+              alt="Json Web Tokens"
+            />
           </Paper>
         </Grid>
         <Grid item xs={4} sm={4} md={6}>
