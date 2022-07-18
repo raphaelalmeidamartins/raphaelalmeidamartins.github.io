@@ -133,25 +133,23 @@ const projectsData = [
   },
   {
     id: 7,
-    title: 'Store Manager',
+    title: 'Blogs API',
     type: 'Back-end',
     screenshot: screenshotsData[7],
     description: {
-      EN: 'RESTful API developed with Node.js and Express.js with MySQL database',
-      BR: 'API RESTful desenvolvida em Node.js e Express.js com o banco de dados MySQL',
+      EN: 'RESTful API developed with Node.js, Express.js, Sequelize.js and with Json Web Token (JWT) authentication',
+      BR: 'API RESTful desenvolvida em Node.js, Express.js, Sequelize.js e autenticação por Json Web Token (JWT)',
     },
     tools: [
       toolsData.javaScript,
       toolsData.node,
       toolsData.express,
+      toolsData.sequelize,
       toolsData.mySQL,
       toolsData.docker,
-      toolsData.mocha,
-      toolsData.chai,
-      toolsData.sinon,
     ],
-    repositoryLink: 'https://github.com/raphaelalmeidamartins/store-manager',
-    deployLink: 'https://github.com/raphaelalmeidamartins/store-manager',
+    repositoryLink: 'https://github.com/raphaelalmeidamartins/blogs-api',
+    deployLink: 'https://github.com/raphaelalmeidamartins/blogs-api',
   },
   {
     id: 8,
@@ -172,6 +170,28 @@ const projectsData = [
       'https://github.com/raphaelalmeidamartins/tests-with-react-testing-library',
     deployLink:
       'https://github.com/raphaelalmeidamartins/tests-with-react-testing-library',
+  },
+  {
+    id: 9,
+    title: 'Store Manager',
+    type: 'Back-end',
+    screenshot: screenshotsData[9],
+    description: {
+      EN: 'RESTful API developed with Node.js and Express.js with MySQL database',
+      BR: 'API RESTful desenvolvida em Node.js e Express.js com o banco de dados MySQL',
+    },
+    tools: [
+      toolsData.javaScript,
+      toolsData.node,
+      toolsData.express,
+      toolsData.mySQL,
+      toolsData.docker,
+      toolsData.mocha,
+      toolsData.chai,
+      toolsData.sinon,
+    ],
+    repositoryLink: 'https://github.com/raphaelalmeidamartins/store-manager',
+    deployLink: 'https://github.com/raphaelalmeidamartins/store-manager',
   },
 ];
 
