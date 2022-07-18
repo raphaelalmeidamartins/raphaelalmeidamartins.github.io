@@ -2,8 +2,19 @@ import React from 'react';
 import { DiJavascript } from 'react-icons/di';
 import { FaRoute, FaFontAwesomeFlag, FaNodeJs, FaDocker } from 'react-icons/fa';
 import {
-  SiBulma, SiCss3, SiHtml5, SiReact,
-  SiRedux, SiSass, SiTestinglibrary, SiExpress, SiMysql, SiMocha, SiChai, SiJest,
+  SiBulma,
+  SiCss3,
+  SiHtml5,
+  SiReact,
+  SiRedux,
+  SiSass,
+  SiTestinglibrary,
+  SiExpress,
+  SiMysql,
+  SiMocha,
+  SiChai,
+  SiJest,
+  SiSequelize,
 } from 'react-icons/si';
 import { BiTestTube } from 'react-icons/bi';
 
@@ -76,6 +87,10 @@ const toolsData = {
     icon: <SiMysql />,
     label: 'MySQL',
   },
+  sequelize: {
+    icon: <SiSequelize />,
+    label: 'Sequelize.js',
+  },
   mocha: {
     icon: <SiMocha />,
     label: 'Mocha',
@@ -91,7 +106,7 @@ const toolsData = {
   jest: {
     icon: <SiJest />,
     label: 'Jest',
-  }
+  },
 };
 
 export default toolsData;
