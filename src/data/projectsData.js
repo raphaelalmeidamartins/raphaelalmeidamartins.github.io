@@ -149,7 +149,6 @@ const projectsData = [
       toolsData.docker,
     ],
     repositoryLink: 'https://github.com/raphaelalmeidamartins/blogs-api',
-    deployLink: 'https://github.com/raphaelalmeidamartins/blogs-api',
   },
   {
     id: 8,
@@ -167,8 +166,6 @@ const projectsData = [
       toolsData.jest,
     ],
     repositoryLink:
-      'https://github.com/raphaelalmeidamartins/tests-with-react-testing-library',
-    deployLink:
       'https://github.com/raphaelalmeidamartins/tests-with-react-testing-library',
   },
   {
@@ -191,7 +188,6 @@ const projectsData = [
       toolsData.sinon,
     ],
     repositoryLink: 'https://github.com/raphaelalmeidamartins/store-manager',
-    deployLink: 'https://github.com/raphaelalmeidamartins/store-manager',
   },
 ];
 

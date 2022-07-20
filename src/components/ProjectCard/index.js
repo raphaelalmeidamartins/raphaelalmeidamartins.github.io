@@ -76,16 +76,18 @@ function ProjectCard({
             <FaGithub />
           </SvgIcon>
         </IconButton>
-        <IconButton
-          size="small"
-          LinkComponent="a"
-          href={deployLink}
-          color="primary"
-        >
-          <SvgIcon inheritViewBox>
-            <FaExternalLinkAlt />
-          </SvgIcon>
-        </IconButton>
+        {deployLink && (
+          <IconButton
+            size="small"
+            LinkComponent="a"
+            href={deployLink}
+            color="primary"
+          >
+            <SvgIcon inheritViewBox>
+              <FaExternalLinkAlt />
+            </SvgIcon>
+          </IconButton>
+        )}
       </CardActions>
     </Card>
   );
@@ -99,7 +101,7 @@ ProjectCard.propTypes = {
     PropTypes.objectOf(PropTypes.oneOfType([PropTypes.string, PropTypes.node]))
   ).isRequired,
   repositoryLink: PropTypes.string.isRequired,
-  deployLink: PropTypes.string.isRequired,
+  deployLink: PropTypes.string,
 };
 
 export default ProjectCard;
