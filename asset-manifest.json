@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.aecbc329.css",
-    "main.js": "/static/js/main.d6cd473b.js",
+    "main.js": "/static/js/main.4942780c.js",
     "static/js/787.3fd8f1df.chunk.js": "/static/js/787.3fd8f1df.chunk.js",
     "static/media/sonic-trunfo.png": "/static/media/sonic-trunfo.a8fde8133e6b07b0a6dc.png",
     "static/media/trivia.png": "/static/media/trivia.c99bb8624dddbf4968c5.png",
@@ -16,11 +16,11 @@
     "static/media/scattered-forcefields-dark.svg": "/static/media/scattered-forcefields-dark.136ce18b4ed152cc2f431c18b113a01f.svg",
     "index.html": "/index.html",
     "main.aecbc329.css.map": "/static/css/main.aecbc329.css.map",
-    "main.d6cd473b.js.map": "/static/js/main.d6cd473b.js.map",
+    "main.4942780c.js.map": "/static/js/main.4942780c.js.map",
     "787.3fd8f1df.chunk.js.map": "/static/js/787.3fd8f1df.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aecbc329.css",
-    "static/js/main.d6cd473b.js"
+    "static/js/main.4942780c.js"
   ]
 }
