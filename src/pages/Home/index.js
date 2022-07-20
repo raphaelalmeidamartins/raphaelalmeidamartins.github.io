@@ -10,6 +10,11 @@ import { AppContext } from '../../context';
 function Home() {
   const { lang } = React.useContext(AppContext);
 
+  const resume = {
+    EN: 'https://drive.google.com/file/d/1RIPODQFKEVD-jKRCR2dKzUhMnD9XBuP6/view?usp=sharing',
+    BR: 'https://drive.google.com/file/d/1rXGAyosZ8LgcOXjGObifKBIs0CgAsD1C/view?usp=sharing',
+  };
+
   return (
     <Wrapper sectionId="home" minHeight="100vh">
       <Box
@@ -89,7 +94,7 @@ function Home() {
             variant="outlined"
             size="large"
             component="a"
-            href="https://drive.google.com/file/d/1hzMnn-ha0EdUKk6YE0A8JwGVlidbwvjR/view?usp=sharing"
+            href={resume[lang]}
             sx={{ width: '200px', transition: '400ms' }}
           >
             { lang === 'BR' ? 'Baixar CV' : 'Download CV'}
