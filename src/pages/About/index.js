@@ -134,7 +134,7 @@ function About() {
                     Before I discovered my passion for coding, I took a Graphic
                     Design course and graduated in Financial Management.
                     Although I did not follow any of these career paths, this
-                    previous knowledge gave me some attractive characteristics
+                    prior knowledge gave me some attractive characteristics
                     as a developer. The design background is an asset while
                     working with CSS, and my experience in financial mathematics
                     helps me with the logic of my algorithms.
