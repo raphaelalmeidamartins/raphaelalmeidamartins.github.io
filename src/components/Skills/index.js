@@ -103,6 +103,10 @@ function Skills() {
               src="https://img.shields.io/badge/json%20web%20tokens-323330?style=for-the-badge&logo=json-web-tokens&logoColor=pink"
               alt="Json Web Tokens"
             />
+            <SkillBadge
+              src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white"
+              alt="Heroku"
+            />
           </Paper>
         </Grid>
         <Grid item xs={4} sm={4} md={6}>
