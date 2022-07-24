@@ -149,6 +149,7 @@ const projectsData = [
       toolsData.docker,
     ],
     repositoryLink: 'https://github.com/raphaelalmeidamartins/blogs-api',
+    deployLink: 'https://blogs-api-24072022.herokuapp.com/docs/en/',
   },
   {
     id: 8,
