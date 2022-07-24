@@ -15,6 +15,7 @@ import {
   SiChai,
   SiJest,
   SiSequelize,
+  SiHeroku,
 } from 'react-icons/si';
 import { BiTestTube } from 'react-icons/bi';
 
@@ -107,6 +108,10 @@ const toolsData = {
     icon: <SiJest />,
     label: 'Jest',
   },
+  heroku: {
+    icon: <SiHeroku />,
+    label: 'Heroku',
+  }
 };
 
 export default toolsData;

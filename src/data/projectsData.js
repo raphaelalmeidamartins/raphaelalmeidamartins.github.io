@@ -147,6 +147,7 @@ const projectsData = [
       toolsData.sequelize,
       toolsData.mySQL,
       toolsData.docker,
+      toolsData.heroku,
     ],
     repositoryLink: 'https://github.com/raphaelalmeidamartins/blogs-api',
     deployLink: 'https://blogs-api-24072022.herokuapp.com/docs/en/',
