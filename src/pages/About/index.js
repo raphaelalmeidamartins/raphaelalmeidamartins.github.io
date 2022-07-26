@@ -145,7 +145,7 @@ function About() {
                     align="left"
                     paragraph
                   >
-                    I am a creative with initiative. The things I value the most
+                    I am a creative person with initiative. The things I value the most
                     in the work environment are{' '}
                     <strong>commitment and teamwork.</strong>
                   </Typography>
