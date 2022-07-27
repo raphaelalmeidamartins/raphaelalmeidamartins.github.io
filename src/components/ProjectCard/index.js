@@ -9,7 +9,7 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/system/Box';
 import PropTypes from 'prop-types';
 import * as React from 'react';
-import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
+import { FaExternalLinkAlt, FaFigma, FaGithub } from 'react-icons/fa';
 import { AppContext } from '../../context';
 
 function ProjectCard({
@@ -18,6 +18,7 @@ function ProjectCard({
   description,
   tools,
   repositoryLink,
+  figmaLink,
   deployLink,
   underDevelopment,
 }) {
@@ -88,6 +89,19 @@ function ProjectCard({
             <FaGithub />
           </SvgIcon>
         </IconButton>
+        {figmaLink && (
+          <IconButton
+            size="small"
+            LinkComponent="a"
+            href={figmaLink}
+            target="_blank"
+            color="primary"
+          >
+            <SvgIcon inheritViewBox>
+              <FaFigma />
+            </SvgIcon>
+          </IconButton>
+        )}
         {deployLink && (
           <IconButton
             size="small"
@@ -114,6 +128,7 @@ ProjectCard.propTypes = {
     PropTypes.objectOf(PropTypes.oneOfType([PropTypes.string, PropTypes.node]))
   ).isRequired,
   repositoryLink: PropTypes.string.isRequired,
+  figmaLink: PropTypes.string,
   deployLink: PropTypes.string,
 };
 
