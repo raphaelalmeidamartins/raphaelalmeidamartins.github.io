@@ -18,6 +18,7 @@ import {
   SiHeroku,
   SiTypescript,
   SiSwagger,
+  SiFigma,
 } from 'react-icons/si';
 import { BiTestTube } from 'react-icons/bi';
 
@@ -121,7 +122,11 @@ const toolsData = {
   swagger: {
     icon: <SiSwagger />,
     label: 'Swagger'
-  }
+  },
+  figma: {
+    icon: <SiFigma />,
+    label: 'Figma'
+  },
 };
 
 export default toolsData;
