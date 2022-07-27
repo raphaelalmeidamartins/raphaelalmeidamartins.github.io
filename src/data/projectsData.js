@@ -46,8 +46,10 @@ const projectsData = [
       toolsData.html,
       toolsData.css,
       toolsData.sass,
+      toolsData.figma,
     ],
     repositoryLink: 'https://github.com/raphaelalmeidamartins/fine-flavor',
+    figmaLink: 'https://www.figma.com/file/ejYF6DFXKnLn4HCMtZRXkw/Fine-Flavor',
   },
   {
     id: 3,
