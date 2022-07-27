@@ -16,6 +16,8 @@ import {
   SiJest,
   SiSequelize,
   SiHeroku,
+  SiTypescript,
+  SiSwagger,
 } from 'react-icons/si';
 import { BiTestTube } from 'react-icons/bi';
 
@@ -59,6 +61,10 @@ const toolsData = {
   javaScript: {
     icon: <DiJavascript />,
     label: 'JavaScript',
+  },
+  typeScript: {
+    icon: <SiTypescript />,
+    label: 'TypeScript',
   },
   html: {
     icon: <SiHtml5 />,
@@ -111,6 +117,10 @@ const toolsData = {
   heroku: {
     icon: <SiHeroku />,
     label: 'Heroku',
+  },
+  swagger: {
+    icon: <SiSwagger />,
+    label: 'Swagger'
   }
 };
 
