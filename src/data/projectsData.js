@@ -6,6 +6,7 @@ const projectsData = [
     id: 1,
     title: 'Sonic Trunfo',
     type: 'Front-end',
+    underDevelopment: true,
     screenshot: screenshotsData[1],
     description: {
       EN: 'Top Trumps-style card game with Sonic the Hedgehog characters',
@@ -27,11 +28,35 @@ const projectsData = [
   },
   {
     id: 2,
-    title: 'Trivia',
+    title: 'Fine Flavor',
     type: 'Front-end',
+    underDevelopment: true,
     screenshot: screenshotsData[2],
     description: {
-      EN: 'Trivia game React application fetching for questions\' data from a public API',
+      EN: 'Mobile recipes React application fetching recipes\' data from a public API',
+      BR: 'Aplicativo de receitas mobile desenvolvido em React usando uma API pública',
+    },
+    tools: [
+      toolsData.react,
+      toolsData.reactRouterV5,
+      toolsData.redux,
+      toolsData.rtl,
+      toolsData.reactIcons,
+      toolsData.javaScript,
+      toolsData.html,
+      toolsData.css,
+      toolsData.sass,
+    ],
+    repositoryLink: 'https://github.com/raphaelalmeidamartins/fine-flavor',
+  },
+  {
+    id: 3,
+    title: 'Trivia',
+    type: 'Front-end',
+    underDevelopment: false,
+    screenshot: screenshotsData[3],
+    description: {
+      EN: 'Trivia game React application fetching questions\' data from a public API',
       BR: 'Jogo de trivia desenvolvido em React usando uma API pública',
     },
     tools: [
@@ -48,10 +73,11 @@ const projectsData = [
     deployLink: 'https://raphaelalmeidamartins.github.io/trivia/#/',
   },
   {
-    id: 3,
+    id: 4,
     title: 'Online Store',
     type: 'Front-end',
-    screenshot: screenshotsData[3],
+    underDevelopment: false,
+    screenshot: screenshotsData[4],
     description: {
       EN: 'SPA online store application fetching products\' data from a public API',
       BR: 'Aplicação SPA React de loja online usando uma API pública',
@@ -72,12 +98,13 @@ const projectsData = [
       'https://raphaelalmeidamartins.github.io/front-end-online-store/#/',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Wallet',
     type: 'Front-end',
-    screenshot: screenshotsData[4],
+    underDevelopment: false,
+    screenshot: screenshotsData[5],
     description: {
-      EN: 'Wallet application fetching for curriencies\' exchange rates from a public API',
+      EN: 'Wallet application fetching curriencies\' exchange rates from a public API',
       BR: 'Aplicação de carteira usando taxas de câmbio de uma API pública',
     },
     tools: [
@@ -95,10 +122,11 @@ const projectsData = [
     deployLink: 'https://raphaelalmeidamartins.github.io/trybewallet/#/',
   },
   {
-    id: 5,
+    id: 6,
     title: 'To-Do List',
     type: 'Front-end',
-    screenshot: screenshotsData[5],
+    underDevelopment: false,
+    screenshot: screenshotsData[6],
     description: {
       EN: 'To-Do List application developed with vanilla JavaScript',
       BR: 'Aplicação de lista de tarefas desenvolvida com JavaScript puro',
@@ -114,10 +142,11 @@ const projectsData = [
     deployLink: 'https://raphaelalmeidamartins.github.io/to-do-list/',
   },
   {
-    id: 6,
+    id: 7,
     title: 'Trybewarts',
     type: 'Front-end',
-    screenshot: screenshotsData[6],
+    underDevelopment: false,
+    screenshot: screenshotsData[7],
     description: {
       EN: 'Responsive web page with HTML forms and inspired by the Harry Potter series',
       BR: 'Página responsiva com formulário HTML e inspirada em Harry Potter',
@@ -132,10 +161,11 @@ const projectsData = [
     deployLink: 'https://raphaelalmeidamartins.github.io/trybewarts/',
   },
   {
-    id: 7,
+    id: 8,
     title: 'Blogs API',
     type: 'Back-end',
-    screenshot: screenshotsData[7],
+    underDevelopment: false,
+    screenshot: screenshotsData[8],
     description: {
       EN: 'RESTful API developed with Node.js, Express.js, Sequelize.js and with Json Web Token (JWT) authentication',
       BR: 'API RESTful desenvolvida em Node.js, Express.js, Sequelize.js e autenticação por Json Web Token (JWT)',
@@ -147,16 +177,18 @@ const projectsData = [
       toolsData.sequelize,
       toolsData.mySQL,
       toolsData.docker,
+      toolsData.swagger,
       toolsData.heroku,
     ],
     repositoryLink: 'https://github.com/raphaelalmeidamartins/blogs-api',
     deployLink: 'https://blogs-api-24072022.herokuapp.com/docs/en/',
   },
   {
-    id: 8,
+    id: 9,
     title: 'Tests with RTL',
     type: 'Front-end',
-    screenshot: screenshotsData[8],
+    underDevelopment: false,
+    screenshot: screenshotsData[9],
     description: {
       EN: 'Front-end testing projects with React Testing Library',
       BR: 'Projeto de testes no Front-end com a React Testing Library',
@@ -171,10 +203,11 @@ const projectsData = [
       'https://github.com/raphaelalmeidamartins/tests-with-react-testing-library',
   },
   {
-    id: 9,
+    id: 10,
     title: 'Store Manager',
     type: 'Back-end',
-    screenshot: screenshotsData[9],
+    underDevelopment: false,
+    screenshot: screenshotsData[10],
     description: {
       EN: 'RESTful API developed with Node.js and Express.js with MySQL database',
       BR: 'API RESTful desenvolvida em Node.js e Express.js com o banco de dados MySQL',

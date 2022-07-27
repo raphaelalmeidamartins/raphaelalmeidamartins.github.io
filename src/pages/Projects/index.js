@@ -24,7 +24,7 @@ function Projects() {
   return (
     <Wrapper sectionId="projects" minHeight="100vh">
       <Typography variant="h2" element="h1" align="center" gutterBottom>
-        {lang === 'BR' ? 'Meus projetos' : 'My projects'}
+        {lang === 'BR' ? 'Meus projetos' : 'My work'}
       </Typography>
       <Typography variant="body1" element="p" align="center" paragraph>
         {lang === 'BR'

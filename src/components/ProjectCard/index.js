@@ -19,8 +19,13 @@ function ProjectCard({
   tools,
   repositoryLink,
   deployLink,
+  underDevelopment,
 }) {
   const { lang } = React.useContext(AppContext);
+  const underDevelopmentLabel = {
+    EN: 'Under Development',
+    BR: 'Em Desenvolvimento',
+  };
 
   return (
     <Card sx={{ height: '100%', position: 'relative' }}>
@@ -32,7 +37,14 @@ function ProjectCard({
       />
       <CardContent sx={{ paddingBottom: '48px' }}>
         <Typography gutterBottom variant="h5" component="div">
-          {title}
+          {title}{' '}
+          {underDevelopment && (
+            <Chip
+              label={underDevelopmentLabel[lang]}
+              size="small"
+              color="success"
+            />
+          )}
         </Typography>
         <Typography variant="body2" color="text.secondary">
           {description[lang]}
@@ -96,6 +108,7 @@ function ProjectCard({
 ProjectCard.propTypes = {
   screenshot: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
+  underDevelopment: PropTypes.bool.isRequired,
   description: PropTypes.objectOf(PropTypes.string).isRequired,
   tools: PropTypes.arrayOf(
     PropTypes.objectOf(PropTypes.oneOfType([PropTypes.string, PropTypes.node]))
