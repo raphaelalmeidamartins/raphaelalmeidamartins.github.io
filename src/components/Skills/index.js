@@ -24,7 +24,7 @@ function Skills() {
         columns={{ xs: 4, sm: 8, md: 12 }}
       >
         <Grid item xs={4} sm={4} md={6}>
-          <Paper elevation={3} sx={{ padding: '18px', height: '100%' }}>
+          <Paper elevation={3} sx={{ padding: '18px', height: '100%', textAlign: 'center' }}>
             <Typography variant="h4" element="h2" align="center" gutterBottom>
               Front-end
             </Typography>
@@ -39,6 +39,10 @@ function Skills() {
             <SkillBadge
               src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"
               alt="JavaScript"
+            />
+            <SkillBadge
+              src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"
+              alt="TypeScript"
             />
             <SkillBadge
               src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"
@@ -71,7 +75,7 @@ function Skills() {
           </Paper>
         </Grid>
         <Grid item xs={4} sm={4} md={6}>
-          <Paper elevation={3} sx={{ padding: '18px', height: '100%' }}>
+          <Paper elevation={3} sx={{ padding: '18px', height: '100%', textAlign: 'center' }}>
             <Typography variant="h4" element="h2" align="center" gutterBottom>
               Back-end
             </Typography>
@@ -82,6 +86,10 @@ function Skills() {
             <SkillBadge
               src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"
               alt="Node.js"
+            />
+            <SkillBadge
+              src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"
+              alt="TypeScript"
             />
             <SkillBadge
               src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge"
@@ -104,13 +112,17 @@ function Skills() {
               alt="Json Web Tokens"
             />
             <SkillBadge
+              src="https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white"
+              alt="Swagger UI"
+            />
+            <SkillBadge
               src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white"
               alt="Heroku"
             />
           </Paper>
         </Grid>
         <Grid item xs={4} sm={4} md={6}>
-          <Paper elevation={3} sx={{ padding: '18px', height: '100%' }}>
+          <Paper elevation={3} sx={{ padding: '18px', height: '100%', textAlign: 'center' }}>
             <Typography variant="h4" element="h2" align="center" gutterBottom>
               {lang === 'BR' ? 'Testes' : 'Tests'}
             </Typography>
@@ -137,10 +149,18 @@ function Skills() {
           </Paper>
         </Grid>
         <Grid item xs={4} sm={4} md={6}>
-          <Paper elevation={3} sx={{ padding: '18px', height: '100%' }}>
+          <Paper elevation={3} sx={{ padding: '18px', height: '100%', textAlign: 'center' }}>
             <Typography variant="h4" element="h2" align="center" gutterBottom>
-              Design
+              {lang === 'BR' ? 'Outros' : 'Other'}
             </Typography>
+            <SkillBadge
+              src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=whitee"
+              alt="Git"
+            />
+            <SkillBadge
+              src="https://img.shields.io/badge/GNU%20Bash-4EAA25?style=for-the-badge&logo=GNU%20Bash&logoColor=white"
+              alt="Bash"
+            />
             <SkillBadge
               src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"
               alt="Figma"
@@ -156,6 +176,10 @@ function Skills() {
             <SkillBadge
               src="https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=Adobe%20Photoshop&logoColor=black"
               alt="Adobe Photoshop"
+            />
+            <SkillBadge
+              src="https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white"
+              alt="Microsoft Excel"
             />
           </Paper>
         </Grid>
