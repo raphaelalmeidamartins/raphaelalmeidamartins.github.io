@@ -1,4 +1,5 @@
 import sonicTrunfo from '../assets/project-screenshots/sonic-trunfo.png';
+import fineFlavor from '../assets/project-screenshots/fine-flavor.png';
 import trivia from '../assets/project-screenshots/trivia.png';
 import onlineStore from '../assets/project-screenshots/online-store.png';
 import wallet from '../assets/project-screenshots/wallet.png';
@@ -10,14 +11,15 @@ import blogsApi from '../assets/project-screenshots/blogs-api.png';
 
 const screenshotsData = {
   1: sonicTrunfo,
-  2: trivia,
-  3: onlineStore,
-  4: wallet,
-  5: todoList,
-  6: trybewarts,
-  7: blogsApi,
-  8: testsWithRTL,
-  9: storeManager,
+  2: fineFlavor,
+  3: trivia,
+  4: onlineStore,
+  5: wallet,
+  6: todoList,
+  7: trybewarts,
+  8: blogsApi,
+  9: testsWithRTL,
+  10: storeManager,
 };
 
 export default screenshotsData;
