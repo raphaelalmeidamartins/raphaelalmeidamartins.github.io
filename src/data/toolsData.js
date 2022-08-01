@@ -19,6 +19,8 @@ import {
   SiTypescript,
   SiSwagger,
   SiFigma,
+  SiStyledcomponents,
+  SiMaterialui,
 } from 'react-icons/si';
 import { BiTestTube } from 'react-icons/bi';
 
@@ -51,6 +53,10 @@ const toolsData = {
     icon: <SiRedux />,
     label: 'Redux',
   },
+  reduxToolkit: {
+    icon: <SiRedux />,
+    label: 'Redux Toolkit',
+  },
   rtl: {
     icon: <SiTestinglibrary />,
     label: 'RTL',
@@ -78,6 +84,14 @@ const toolsData = {
   sass: {
     icon: <SiSass />,
     label: 'Sass',
+  },
+  styledComponents: {
+    icon: <SiStyledcomponents />,
+    label: 'Styled Components',
+  },
+  materialUI: {
+    icon: <SiMaterialui />,
+    label: 'Material UI',
   },
   node: {
     icon: <FaNodeJs />,
