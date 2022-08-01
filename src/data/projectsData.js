@@ -28,10 +28,36 @@ const projectsData = [
   },
   {
     id: 2,
-    title: 'Fine Flavor',
+    title: 'Hackathon Trybe',
     type: 'Front-end',
     underDevelopment: true,
     screenshot: screenshotsData[2],
+    description: {
+      EN: 'React landing page developed with React for the Hackathon promoted by Trybe and Wine',
+      BR: 'Landing page desenvolvida em React para o Hackathon organizado pela Trybe em parceria com a empresa Wine',
+    },
+    tools: [
+      toolsData.react,
+      toolsData.reactRouterV5,
+      toolsData.redux,
+      toolsData.reduxToolkit,
+      toolsData.reactIcons,
+      toolsData.javaScript,
+      toolsData.html,
+      toolsData.css,
+      toolsData.styledComponents,
+      toolsData.materialUI,
+      toolsData.figma,
+    ],
+    repositoryLink: 'https://github.com/raphaelalmeidamartins/hackathon-trybe-wine',
+    deployLink: 'https://raphaelmartins.dev/hackathon-trybe-wine/#/',
+  },
+  {
+    id: 3,
+    title: 'Fine Flavor',
+    type: 'Front-end',
+    underDevelopment: true,
+    screenshot: screenshotsData[3],
     description: {
       EN: 'Mobile recipes React application fetching recipes\' data from a public API',
       BR: 'Aplicativo de receitas mobile desenvolvido em React usando uma API pública',
@@ -52,11 +78,11 @@ const projectsData = [
     figmaLink: 'https://www.figma.com/file/ejYF6DFXKnLn4HCMtZRXkw/Fine-Flavor',
   },
   {
-    id: 3,
+    id: 4,
     title: 'Trivia',
     type: 'Front-end',
     underDevelopment: false,
-    screenshot: screenshotsData[3],
+    screenshot: screenshotsData[4],
     description: {
       EN: 'Trivia game React application fetching questions\' data from a public API',
       BR: 'Jogo de trivia desenvolvido em React usando uma API pública',
@@ -75,11 +101,11 @@ const projectsData = [
     deployLink: 'https://raphaelalmeidamartins.github.io/trivia/#/',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Online Store',
     type: 'Front-end',
     underDevelopment: false,
-    screenshot: screenshotsData[4],
+    screenshot: screenshotsData[5],
     description: {
       EN: 'SPA online store application fetching products\' data from a public API',
       BR: 'Aplicação SPA React de loja online usando uma API pública',
@@ -100,11 +126,11 @@ const projectsData = [
       'https://raphaelalmeidamartins.github.io/front-end-online-store/#/',
   },
   {
-    id: 5,
+    id: 6,
     title: 'Wallet',
     type: 'Front-end',
     underDevelopment: false,
-    screenshot: screenshotsData[5],
+    screenshot: screenshotsData[6],
     description: {
       EN: 'Wallet application fetching curriencies\' exchange rates from a public API',
       BR: 'Aplicação de carteira usando taxas de câmbio de uma API pública',
@@ -124,11 +150,11 @@ const projectsData = [
     deployLink: 'https://raphaelalmeidamartins.github.io/trybewallet/#/',
   },
   {
-    id: 6,
+    id: 7,
     title: 'To-Do List',
     type: 'Front-end',
     underDevelopment: false,
-    screenshot: screenshotsData[6],
+    screenshot: screenshotsData[7],
     description: {
       EN: 'To-Do List application developed with vanilla JavaScript',
       BR: 'Aplicação de lista de tarefas desenvolvida com JavaScript puro',
@@ -144,11 +170,11 @@ const projectsData = [
     deployLink: 'https://raphaelalmeidamartins.github.io/to-do-list/',
   },
   {
-    id: 7,
+    id: 8,
     title: 'Trybewarts',
     type: 'Front-end',
     underDevelopment: false,
-    screenshot: screenshotsData[7],
+    screenshot: screenshotsData[8],
     description: {
       EN: 'Responsive web page with HTML forms and inspired by the Harry Potter series',
       BR: 'Página responsiva com formulário HTML e inspirada em Harry Potter',
@@ -163,11 +189,11 @@ const projectsData = [
     deployLink: 'https://raphaelalmeidamartins.github.io/trybewarts/',
   },
   {
-    id: 8,
+    id: 9,
     title: 'Blogs API',
     type: 'Back-end',
     underDevelopment: false,
-    screenshot: screenshotsData[8],
+    screenshot: screenshotsData[9],
     description: {
       EN: 'RESTful API developed with Node.js, Express.js, Sequelize.js and with Json Web Token (JWT) authentication',
       BR: 'API RESTful desenvolvida em Node.js, Express.js, Sequelize.js e autenticação por Json Web Token (JWT)',
@@ -186,11 +212,11 @@ const projectsData = [
     deployLink: 'https://blogs-api-24072022.herokuapp.com/docs/en/',
   },
   {
-    id: 9,
+    id: 10,
     title: 'Tests with RTL',
     type: 'Front-end',
     underDevelopment: false,
-    screenshot: screenshotsData[9],
+    screenshot: screenshotsData[10],
     description: {
       EN: 'Front-end testing projects with React Testing Library',
       BR: 'Projeto de testes no Front-end com a React Testing Library',
@@ -205,11 +231,11 @@ const projectsData = [
       'https://github.com/raphaelalmeidamartins/tests-with-react-testing-library',
   },
   {
-    id: 10,
+    id: 11,
     title: 'Store Manager',
     type: 'Back-end',
     underDevelopment: false,
-    screenshot: screenshotsData[10],
+    screenshot: screenshotsData[11],
     description: {
       EN: 'RESTful API developed with Node.js and Express.js with MySQL database',
       BR: 'API RESTful desenvolvida em Node.js e Express.js com o banco de dados MySQL',
