@@ -61,6 +61,10 @@ function Skills() {
               alt="Sass"
             />
             <SkillBadge
+              src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white"
+              alt="Styled Components"
+            />
+            <SkillBadge
               src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"
               alt="Bootstrap"
             />
