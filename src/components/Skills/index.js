@@ -14,7 +14,7 @@ function Skills() {
         variant="h3"
         element="h1"
         align="center"
-        sx={{ margin: '76px 0' }}
+        sx={{ margin: '38px 0' }}
       >
         {lang === 'BR' ? 'Habilidades e ferramentas' : 'Skills and Tools'}
       </Typography>
