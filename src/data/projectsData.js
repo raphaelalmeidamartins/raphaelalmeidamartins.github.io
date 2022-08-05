@@ -171,22 +171,22 @@ const projectsData = [
   },
   {
     id: 8,
-    title: 'Trybewarts',
-    type: 'Front-end',
+    title: 'Trybesmith',
+    type: 'Back-end',
     underDevelopment: false,
     screenshot: screenshotsData[8],
     description: {
-      EN: 'Responsive web page with HTML forms and inspired by the Harry Potter series',
-      BR: 'Página responsiva com formulário HTML e inspirada em Harry Potter',
+      EN: 'RESTful API developed with TypeScript, Node.js and Express.js with MySQL database',
+      BR: 'API RESTful desenvolvida em Node.js com TypeScript e Express.js com o banco de dados MySQL',
     },
     tools: [
-      toolsData.javaScript,
-      toolsData.html,
-      toolsData.css,
-      toolsData.sass,
+      toolsData.typeScript,
+      toolsData.node,
+      toolsData.express,
+      toolsData.mySQL,
+      toolsData.docker,
     ],
-    repositoryLink: 'https://github.com/raphaelalmeidamartins/trybewarts',
-    deployLink: 'https://raphaelalmeidamartins.github.io/trybewarts/',
+    repositoryLink: 'https://github.com/raphaelalmeidamartins/trybesmith',
   },
   {
     id: 9,
@@ -251,6 +251,25 @@ const projectsData = [
       toolsData.sinon,
     ],
     repositoryLink: 'https://github.com/raphaelalmeidamartins/store-manager',
+  },
+  {
+    id: 12,
+    title: 'Trybewarts',
+    type: 'Front-end',
+    underDevelopment: false,
+    screenshot: screenshotsData[12],
+    description: {
+      EN: 'Responsive web page with HTML forms and inspired by the Harry Potter series',
+      BR: 'Página responsiva com formulário HTML e inspirada em Harry Potter',
+    },
+    tools: [
+      toolsData.javaScript,
+      toolsData.html,
+      toolsData.css,
+      toolsData.sass,
+    ],
+    repositoryLink: 'https://github.com/raphaelalmeidamartins/trybewarts',
+    deployLink: 'https://raphaelalmeidamartins.github.io/trybewarts/',
   },
 ];
 

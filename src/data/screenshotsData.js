@@ -9,6 +9,7 @@ import storeManager from '../assets/project-screenshots/store-manager.png';
 import testsWithRTL from '../assets/project-screenshots/tests-with-rtl.png';
 import blogsApi from '../assets/project-screenshots/blogs-api.png';
 import trybeWineHackathon from '../assets/project-screenshots/trybe-wine-hackathon.png';
+import trybesmith from '../assets/project-screenshots/trybesmith.png';
 
 const screenshotsData = {
   1: sonicTrunfo,
@@ -18,10 +19,11 @@ const screenshotsData = {
   5: onlineStore,
   6: wallet,
   7: todoList,
-  8: trybewarts,
+  8: trybesmith,
   9: blogsApi,
   10: testsWithRTL,
   11: storeManager,
+  12: trybewarts,
 };
 
 export default screenshotsData;
