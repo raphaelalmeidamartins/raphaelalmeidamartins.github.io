@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.aecbc329.css",
-    "main.js": "/static/js/main.11d3ad4d.js",
+    "main.js": "/static/js/main.e4a3f82d.js",
     "static/js/787.3fd8f1df.chunk.js": "/static/js/787.3fd8f1df.chunk.js",
     "static/media/trybe-wine-hackathon.png": "/static/media/trybe-wine-hackathon.c63711c4bf99f6961b1e.png",
     "static/media/fine-flavor.png": "/static/media/fine-flavor.9a1027d5fffb66e9bdc6.png",
     "static/media/sonic-trunfo.png": "/static/media/sonic-trunfo.a8fde8133e6b07b0a6dc.png",
     "static/media/trivia.png": "/static/media/trivia.c99bb8624dddbf4968c5.png",
+    "static/media/trybe-futebol-clube.png": "/static/media/trybe-futebol-clube.8a4c9ee60ab13bf309e5.png",
     "static/media/me.jpg": "/static/media/me.9c88569b6904fba18219.jpg",
     "static/media/trybesmith.png": "/static/media/trybesmith.13d62f31a3b412b7f916.png",
     "static/media/online-store.png": "/static/media/online-store.24b969033d77878aa622.png",
@@ -19,11 +20,11 @@
     "static/media/scattered-forcefields-dark.svg": "/static/media/scattered-forcefields-dark.136ce18b4ed152cc2f431c18b113a01f.svg",
     "index.html": "/index.html",
     "main.aecbc329.css.map": "/static/css/main.aecbc329.css.map",
-    "main.11d3ad4d.js.map": "/static/js/main.11d3ad4d.js.map",
+    "main.e4a3f82d.js.map": "/static/js/main.e4a3f82d.js.map",
     "787.3fd8f1df.chunk.js.map": "/static/js/787.3fd8f1df.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aecbc329.css",
-    "static/js/main.11d3ad4d.js"
+    "static/js/main.e4a3f82d.js"
   ]
 }
