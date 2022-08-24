@@ -79,10 +79,33 @@ const projectsData = [
   },
   {
     id: 4,
+    title: 'Trybe Futebol Clube',
+    type: 'Back-end',
+    underDevelopment: false,
+    screenshot: screenshotsData[4],
+    description: {
+      EN: 'RESTful API for a soccer tournament application',
+      BR: 'API RESTful desenvolvida para uma aplicação de campeonato de futebol',
+    },
+    tools: [
+      toolsData.typeScript,
+      toolsData.node,
+      toolsData.express,
+      toolsData.sequelize,
+      toolsData.mySQL,
+      toolsData.docker,
+      toolsData.mocha,
+      toolsData.chai,
+      toolsData.sinon,
+    ],
+    repositoryLink: 'https://github.com/raphaelalmeidamartins/trybe-futebol-clube',
+  },
+  {
+    id: 5,
     title: 'Trivia',
     type: 'Front-end',
     underDevelopment: false,
-    screenshot: screenshotsData[4],
+    screenshot: screenshotsData[5],
     description: {
       EN: 'Trivia game React application fetching questions\' data from a public API',
       BR: 'Jogo de trivia desenvolvido em React usando uma API pública',
@@ -101,11 +124,11 @@ const projectsData = [
     deployLink: 'https://raphaelalmeidamartins.github.io/trivia/#/',
   },
   {
-    id: 5,
+    id: 6,
     title: 'Online Store',
     type: 'Front-end',
     underDevelopment: false,
-    screenshot: screenshotsData[5],
+    screenshot: screenshotsData[6],
     description: {
       EN: 'SPA online store application fetching products\' data from a public API',
       BR: 'Aplicação SPA React de loja online usando uma API pública',
@@ -126,11 +149,11 @@ const projectsData = [
       'https://raphaelalmeidamartins.github.io/front-end-online-store/#/',
   },
   {
-    id: 6,
+    id: 7,
     title: 'Wallet',
     type: 'Front-end',
     underDevelopment: false,
-    screenshot: screenshotsData[6],
+    screenshot: screenshotsData[7],
     description: {
       EN: 'Wallet application fetching curriencies\' exchange rates from a public API',
       BR: 'Aplicação de carteira usando taxas de câmbio de uma API pública',
@@ -150,11 +173,11 @@ const projectsData = [
     deployLink: 'https://raphaelalmeidamartins.github.io/trybewallet/#/',
   },
   {
-    id: 7,
+    id: 8,
     title: 'To-Do List',
     type: 'Front-end',
     underDevelopment: false,
-    screenshot: screenshotsData[7],
+    screenshot: screenshotsData[8],
     description: {
       EN: 'To-Do List application developed with vanilla JavaScript',
       BR: 'Aplicação de lista de tarefas desenvolvida com JavaScript puro',
@@ -170,11 +193,11 @@ const projectsData = [
     deployLink: 'https://raphaelalmeidamartins.github.io/to-do-list/',
   },
   {
-    id: 8,
+    id: 9,
     title: 'Trybesmith',
     type: 'Back-end',
     underDevelopment: false,
-    screenshot: screenshotsData[8],
+    screenshot: screenshotsData[9],
     description: {
       EN: 'RESTful API developed with TypeScript, Node.js and Express.js with MySQL database',
       BR: 'API RESTful desenvolvida em Node.js com TypeScript e Express.js com o banco de dados MySQL',
@@ -189,11 +212,11 @@ const projectsData = [
     repositoryLink: 'https://github.com/raphaelalmeidamartins/trybesmith',
   },
   {
-    id: 9,
+    id: 10,
     title: 'Blogs API',
     type: 'Back-end',
     underDevelopment: false,
-    screenshot: screenshotsData[9],
+    screenshot: screenshotsData[10],
     description: {
       EN: 'RESTful API developed with Node.js, Express.js, Sequelize.js and with Json Web Token (JWT) authentication',
       BR: 'API RESTful desenvolvida em Node.js, Express.js, Sequelize.js e autenticação por Json Web Token (JWT)',
@@ -212,11 +235,11 @@ const projectsData = [
     deployLink: 'https://blogs-api-24072022.herokuapp.com/docs/en/',
   },
   {
-    id: 10,
+    id: 11,
     title: 'Tests with RTL',
     type: 'Front-end',
     underDevelopment: false,
-    screenshot: screenshotsData[10],
+    screenshot: screenshotsData[11],
     description: {
       EN: 'Front-end testing projects with React Testing Library',
       BR: 'Projeto de testes no Front-end com a React Testing Library',
@@ -231,11 +254,11 @@ const projectsData = [
       'https://github.com/raphaelalmeidamartins/tests-with-react-testing-library',
   },
   {
-    id: 11,
+    id: 12,
     title: 'Store Manager',
     type: 'Back-end',
     underDevelopment: false,
-    screenshot: screenshotsData[11],
+    screenshot: screenshotsData[12],
     description: {
       EN: 'RESTful API developed with Node.js and Express.js with MySQL database',
       BR: 'API RESTful desenvolvida em Node.js e Express.js com o banco de dados MySQL',
@@ -253,11 +276,11 @@ const projectsData = [
     repositoryLink: 'https://github.com/raphaelalmeidamartins/store-manager',
   },
   {
-    id: 12,
+    id: 13,
     title: 'Trybewarts',
     type: 'Front-end',
     underDevelopment: false,
-    screenshot: screenshotsData[12],
+    screenshot: screenshotsData[13],
     description: {
       EN: 'Responsive web page with HTML forms and inspired by the Harry Potter series',
       BR: 'Página responsiva com formulário HTML e inspirada em Harry Potter',
