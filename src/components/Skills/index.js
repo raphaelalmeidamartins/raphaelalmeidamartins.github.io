@@ -2,6 +2,7 @@ import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 import * as React from 'react';
+import mongoose from '../../assets/badges/mongoose.svg';
 import { AppContext } from '../../context';
 import SkillBadge from '../SkillBadge';
 
@@ -24,7 +25,10 @@ function Skills() {
         columns={{ xs: 4, sm: 8, md: 12 }}
       >
         <Grid item xs={4} sm={4} md={6}>
-          <Paper elevation={3} sx={{ padding: '18px', height: '100%', textAlign: 'center' }}>
+          <Paper
+            elevation={3}
+            sx={{ padding: '18px', height: '100%', textAlign: 'center' }}
+          >
             <Typography variant="h4" element="h2" align="center" gutterBottom>
               Front-end
             </Typography>
@@ -79,7 +83,10 @@ function Skills() {
           </Paper>
         </Grid>
         <Grid item xs={4} sm={4} md={6}>
-          <Paper elevation={3} sx={{ padding: '18px', height: '100%', textAlign: 'center' }}>
+          <Paper
+            elevation={3}
+            sx={{ padding: '18px', height: '100%', textAlign: 'center' }}
+          >
             <Typography variant="h4" element="h2" align="center" gutterBottom>
               Back-end
             </Typography>
@@ -104,6 +111,11 @@ function Skills() {
               alt="MySQL"
             />
             <SkillBadge
+              src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"
+              alt="MongoDB"
+            />
+            <SkillBadge src={mongoose} alt="Mongoose" />
+            <SkillBadge
               src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white"
               alt="Docker"
             />
@@ -126,7 +138,10 @@ function Skills() {
           </Paper>
         </Grid>
         <Grid item xs={4} sm={4} md={6}>
-          <Paper elevation={3} sx={{ padding: '18px', height: '100%', textAlign: 'center' }}>
+          <Paper
+            elevation={3}
+            sx={{ padding: '18px', height: '100%', textAlign: 'center' }}
+          >
             <Typography variant="h4" element="h2" align="center" gutterBottom>
               {lang === 'BR' ? 'Testes' : 'Tests'}
             </Typography>
@@ -153,7 +168,10 @@ function Skills() {
           </Paper>
         </Grid>
         <Grid item xs={4} sm={4} md={6}>
-          <Paper elevation={3} sx={{ padding: '18px', height: '100%', textAlign: 'center' }}>
+          <Paper
+            elevation={3}
+            sx={{ padding: '18px', height: '100%', textAlign: 'center' }}
+          >
             <Typography variant="h4" element="h2" align="center" gutterBottom>
               {lang === 'BR' ? 'Outros' : 'Other'}
             </Typography>

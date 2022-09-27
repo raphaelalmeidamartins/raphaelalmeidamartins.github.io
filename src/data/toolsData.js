@@ -21,6 +21,7 @@ import {
   SiFigma,
   SiStyledcomponents,
   SiMaterialui,
+  SiMongodb,
 } from 'react-icons/si';
 import { BiTestTube } from 'react-icons/bi';
 
@@ -112,6 +113,14 @@ const toolsData = {
   sequelize: {
     icon: <SiSequelize />,
     label: 'Sequelize.js',
+  },
+  mongodb: {
+    icon: <SiMongodb />,
+    label: 'MongoDB',
+  },
+  mongoose: {
+    icon: <SiMongodb />,
+    label: 'Mongoose',
   },
   mocha: {
     icon: <SiMocha />,
