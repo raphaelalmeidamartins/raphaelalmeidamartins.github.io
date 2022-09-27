@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.aecbc329.css",
-    "main.js": "/static/js/main.e4a3f82d.js",
+    "main.js": "/static/js/main.9fe0e611.js",
     "static/js/787.3fd8f1df.chunk.js": "/static/js/787.3fd8f1df.chunk.js",
     "static/media/trybe-wine-hackathon.png": "/static/media/trybe-wine-hackathon.c63711c4bf99f6961b1e.png",
     "static/media/fine-flavor.png": "/static/media/fine-flavor.9a1027d5fffb66e9bdc6.png",
+    "static/media/mongodb-car-shop.png": "/static/media/mongodb-car-shop.b1e67ce15381c85c5891.png",
     "static/media/sonic-trunfo.png": "/static/media/sonic-trunfo.a8fde8133e6b07b0a6dc.png",
     "static/media/trivia.png": "/static/media/trivia.c99bb8624dddbf4968c5.png",
     "static/media/trybe-futebol-clube.png": "/static/media/trybe-futebol-clube.8a4c9ee60ab13bf309e5.png",
@@ -18,13 +19,14 @@
     "static/media/wallet.png": "/static/media/wallet.7644cdd375317facc269.png",
     "static/media/store-manager.png": "/static/media/store-manager.b8969051780a6282bf64.png",
     "static/media/scattered-forcefields-dark.svg": "/static/media/scattered-forcefields-dark.136ce18b4ed152cc2f431c18b113a01f.svg",
+    "static/media/mongoose.svg": "/static/media/mongoose.62a16b5a6fa185fc0f2a1b02ec064f6b.svg",
     "index.html": "/index.html",
     "main.aecbc329.css.map": "/static/css/main.aecbc329.css.map",
-    "main.e4a3f82d.js.map": "/static/js/main.e4a3f82d.js.map",
+    "main.9fe0e611.js.map": "/static/js/main.9fe0e611.js.map",
     "787.3fd8f1df.chunk.js.map": "/static/js/787.3fd8f1df.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aecbc329.css",
-    "static/js/main.e4a3f82d.js"
+    "static/js/main.9fe0e611.js"
   ]
 }
