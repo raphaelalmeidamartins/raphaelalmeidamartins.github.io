@@ -11,8 +11,8 @@ function Home() {
   const { lang } = React.useContext(AppContext);
 
   const resume = {
-    EN: 'https://drive.google.com/file/d/1RIPODQFKEVD-jKRCR2dKzUhMnD9XBuP6/view?usp=sharing',
-    BR: 'https://drive.google.com/file/d/1rXGAyosZ8LgcOXjGObifKBIs0CgAsD1C/view?usp=sharing',
+    EN: 'https://drive.google.com/file/d/1QORXJLNG4Qc7Ev2rTXZL9Db-8f8s1P83/view?usp=sharing',
+    BR: 'https://drive.google.com/file/d/1gJMEDO7kExFr1GhRolEGkyqfxlKQlmDI/view?usp=sharing',
   };
 
   return (
