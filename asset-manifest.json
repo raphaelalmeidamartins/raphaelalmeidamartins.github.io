@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.aecbc329.css",
-    "main.js": "/static/js/main.9fe0e611.js",
+    "main.js": "/static/js/main.f2e1b88f.js",
     "static/js/787.3fd8f1df.chunk.js": "/static/js/787.3fd8f1df.chunk.js",
     "static/media/trybe-wine-hackathon.png": "/static/media/trybe-wine-hackathon.c63711c4bf99f6961b1e.png",
     "static/media/fine-flavor.png": "/static/media/fine-flavor.9a1027d5fffb66e9bdc6.png",
@@ -22,11 +22,11 @@
     "static/media/mongoose.svg": "/static/media/mongoose.62a16b5a6fa185fc0f2a1b02ec064f6b.svg",
     "index.html": "/index.html",
     "main.aecbc329.css.map": "/static/css/main.aecbc329.css.map",
-    "main.9fe0e611.js.map": "/static/js/main.9fe0e611.js.map",
+    "main.f2e1b88f.js.map": "/static/js/main.f2e1b88f.js.map",
     "787.3fd8f1df.chunk.js.map": "/static/js/787.3fd8f1df.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aecbc329.css",
-    "static/js/main.9fe0e611.js"
+    "static/js/main.f2e1b88f.js"
   ]
 }
