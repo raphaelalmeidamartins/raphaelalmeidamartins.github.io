@@ -5,7 +5,7 @@ const projectsData = [
   {
     id: 1,
     title: 'Sonic Trunfo',
-    type: 'Front-end',
+    type: ['Front-end'],
     underDevelopment: true,
     screenshot: screenshotsData[1],
     description: {
@@ -29,7 +29,7 @@ const projectsData = [
   {
     id: 2,
     title: 'Hackathon Trybe',
-    type: 'Front-end',
+    type: ['Front-end'],
     underDevelopment: true,
     screenshot: screenshotsData[2],
     description: {
@@ -55,7 +55,7 @@ const projectsData = [
   {
     id: 3,
     title: 'Fine Flavor',
-    type: 'Front-end',
+    type: ['Front-end'],
     underDevelopment: true,
     screenshot: screenshotsData[3],
     description: {
@@ -80,7 +80,7 @@ const projectsData = [
   {
     id: 4,
     title: 'Trybe Futebol Clube',
-    type: 'Back-end',
+    type: ['Back-end'],
     underDevelopment: false,
     screenshot: screenshotsData[4],
     description: {
@@ -103,7 +103,7 @@ const projectsData = [
   {
     id: 5,
     title: 'MongoDB Car Shop',
-    type: 'Back-end',
+    type: ['Back-end'],
     underDevelopment: false,
     screenshot: screenshotsData[5],
     description: {
@@ -126,7 +126,7 @@ const projectsData = [
   {
     id: 6,
     title: 'Trivia',
-    type: 'Front-end',
+    type: ['Front-end'],
     underDevelopment: false,
     screenshot: screenshotsData[6],
     description: {
@@ -149,7 +149,7 @@ const projectsData = [
   {
     id: 7,
     title: 'Online Store',
-    type: 'Front-end',
+    type: ['Front-end'],
     underDevelopment: false,
     screenshot: screenshotsData[7],
     description: {
@@ -174,7 +174,7 @@ const projectsData = [
   {
     id: 8,
     title: 'Wallet',
-    type: 'Front-end',
+    type: ['Front-end'],
     underDevelopment: false,
     screenshot: screenshotsData[8],
     description: {
@@ -198,7 +198,7 @@ const projectsData = [
   {
     id: 9,
     title: 'To-Do List',
-    type: 'Front-end',
+    type: ['Front-end'],
     underDevelopment: false,
     screenshot: screenshotsData[9],
     description: {
@@ -218,7 +218,7 @@ const projectsData = [
   {
     id: 10,
     title: 'Trybesmith',
-    type: 'Back-end',
+    type: ['Back-end'],
     underDevelopment: false,
     screenshot: screenshotsData[10],
     description: {
@@ -237,7 +237,7 @@ const projectsData = [
   {
     id: 11,
     title: 'Blogs API',
-    type: 'Back-end',
+    type: ['Back-end'],
     underDevelopment: false,
     screenshot: screenshotsData[11],
     description: {
@@ -260,7 +260,7 @@ const projectsData = [
   {
     id: 12,
     title: 'Tests with RTL',
-    type: 'Front-end',
+    type: ['Front-end'],
     underDevelopment: false,
     screenshot: screenshotsData[12],
     description: {
@@ -279,7 +279,7 @@ const projectsData = [
   {
     id: 13,
     title: 'Store Manager',
-    type: 'Back-end',
+    type: ['Back-end'],
     underDevelopment: false,
     screenshot: screenshotsData[13],
     description: {
@@ -301,7 +301,7 @@ const projectsData = [
   {
     id: 14,
     title: 'Trybewarts',
-    type: 'Front-end',
+    type: ['Front-end'],
     underDevelopment: false,
     screenshot: screenshotsData[14],
     description: {

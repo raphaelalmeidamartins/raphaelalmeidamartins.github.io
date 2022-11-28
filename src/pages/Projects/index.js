@@ -17,7 +17,7 @@ function Projects() {
 
   const returnFilteredProjects = () => {
     return projectsData.filter(
-      ({ type }) => type === filter || filter === 'All'
+      ({ type }) => type.includes(filter) || filter === 'All'
     );
   };
 
