@@ -1,32 +1,31 @@
 {
   "files": {
     "main.css": "/static/css/main.aecbc329.css",
-    "main.js": "/static/js/main.74902632.js",
+    "main.js": "/static/js/main.19d330f7.js",
     "static/js/787.3fd8f1df.chunk.js": "/static/js/787.3fd8f1df.chunk.js",
-    "static/media/trybe-wine-hackathon.png": "/static/media/trybe-wine-hackathon.c63711c4bf99f6961b1e.png",
-    "static/media/fine-flavor.png": "/static/media/fine-flavor.9a1027d5fffb66e9bdc6.png",
-    "static/media/mongodb-car-shop.png": "/static/media/mongodb-car-shop.b1e67ce15381c85c5891.png",
-    "static/media/sonic-trunfo.png": "/static/media/sonic-trunfo.a8fde8133e6b07b0a6dc.png",
-    "static/media/trivia.png": "/static/media/trivia.c99bb8624dddbf4968c5.png",
-    "static/media/trybe-futebol-clube.png": "/static/media/trybe-futebol-clube.8a4c9ee60ab13bf309e5.png",
+    "static/media/sonic-trunfo.png": "/static/media/sonic-trunfo.59514cd6d6b73b054cbc.png",
     "static/media/me.jpg": "/static/media/me.9c88569b6904fba18219.jpg",
-    "static/media/trybesmith.png": "/static/media/trybesmith.13d62f31a3b412b7f916.png",
-    "static/media/online-store.png": "/static/media/online-store.24b969033d77878aa622.png",
-    "static/media/trybewarts.png": "/static/media/trybewarts.90b1a6f0751ee71c3dc8.png",
-    "static/media/tests-with-rtl.png": "/static/media/tests-with-rtl.68fd8ad161d55abda550.png",
-    "static/media/blogs-api.png": "/static/media/blogs-api.688ba8446e714f1f7638.png",
-    "static/media/todo-list.png": "/static/media/todo-list.97d3e1b84ba8b5d4ffdd.png",
-    "static/media/wallet.png": "/static/media/wallet.7644cdd375317facc269.png",
-    "static/media/store-manager.png": "/static/media/store-manager.b8969051780a6282bf64.png",
+    "static/media/trivia.png": "/static/media/trivia.5489104b6557edaf4d8b.png",
+    "static/media/trybe-wine-hackathon.png": "/static/media/trybe-wine-hackathon.499a2d72b2b5c53d3c7d.png",
+    "static/media/fine-flavor.png": "/static/media/fine-flavor.79da44c940f9569b5399.png",
+    "static/media/fullstack-bank.png": "/static/media/fullstack-bank.0d8cb7271261772996e7.png",
+    "static/media/trybe-futebol-clube.png": "/static/media/trybe-futebol-clube.5f31720dff60c57cf359.png",
+    "static/media/mongodb-car-shop.png": "/static/media/mongodb-car-shop.00d2b2fd03efcfd15399.png",
+    "static/media/online-store.png": "/static/media/online-store.c602484f3b07c1de6bcf.png",
+    "static/media/trybewarts.png": "/static/media/trybewarts.f9a2ade7f52b87b5df7a.png",
+    "static/media/tests-with-rtl.png": "/static/media/tests-with-rtl.9bdc6df47ddf3f6c371a.png",
+    "static/media/blogs-api.png": "/static/media/blogs-api.77447c5b4fa364f5cf72.png",
+    "static/media/trybesmith.png": "/static/media/trybesmith.582dad5de46c8c708ad0.png",
+    "static/media/todo-list.png": "/static/media/todo-list.bf292fa47764aee2d188.png",
     "static/media/scattered-forcefields-dark.svg": "/static/media/scattered-forcefields-dark.136ce18b4ed152cc2f431c18b113a01f.svg",
     "static/media/mongoose.svg": "/static/media/mongoose.62a16b5a6fa185fc0f2a1b02ec064f6b.svg",
     "index.html": "/index.html",
     "main.aecbc329.css.map": "/static/css/main.aecbc329.css.map",
-    "main.74902632.js.map": "/static/js/main.74902632.js.map",
+    "main.19d330f7.js.map": "/static/js/main.19d330f7.js.map",
     "787.3fd8f1df.chunk.js.map": "/static/js/787.3fd8f1df.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aecbc329.css",
-    "static/js/main.74902632.js"
+    "static/js/main.19d330f7.js"
   ]
 }
