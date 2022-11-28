@@ -346,6 +346,54 @@ const projectsData = [
     repositoryLink: 'https://github.com/raphaelalmeidamartins/trybewarts',
     deployLink: 'https://raphaelalmeidamartins.github.io/trybewarts/',
   },
+  {
+    id: 18,
+    title: 'Python Tech News',
+    type: ['Data Science'],
+    underDevelopment: false,
+    screenshot: screenshotsData[18],
+    description: {
+      EN: 'Cralwer to scrape news data from Trybe\'s blog',
+      BR: 'Cralwer para raspar dados de notícias do blog da Trybe.',
+    },
+    tools: [
+      toolsData.python,
+      toolsData.pytest,
+    ],
+    repositoryLink: 'https://github.com/raphaelalmeidamartins/python-tech-news',
+  },
+  {
+    id: 17,
+    title: 'Python Inventory Reports',
+    type: ['Data Science'],
+    underDevelopment: false,
+    screenshot: screenshotsData[17],
+    description: {
+      EN: 'Inventory report generator using Object-Oriented Programming (OOP)',
+      BR: 'Gerador de relatórios de estoque utilizando Programação Orientada a Objetos (POO)',
+    },
+    tools: [
+      toolsData.python,
+      toolsData.pytest,
+    ],
+    repositoryLink: 'https://github.com/raphaelalmeidamartins/python-inventory-report',
+  },
+  {
+    id: 16,
+    title: 'Python Job Insights',
+    type: ['Data Science'],
+    underDevelopment: false,
+    screenshot: screenshotsData[16],
+    description: {
+      EN: 'Functions for analyzing job insights data in .CSV reports ',
+      BR: 'Funções para análise de dados de sobre empregos em relatórios .CSV',
+    },
+    tools: [
+      toolsData.python,
+      toolsData.pytest,
+    ],
+    repositoryLink: 'https://github.com/raphaelalmeidamartins/python-job-insights',
+  },
 ];
 
 export default projectsData;

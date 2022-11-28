@@ -13,6 +13,9 @@ import trybesmith from '../assets/project-screenshots/trybesmith.png';
 import trybewarts from '../assets/project-screenshots/trybewarts.png';
 import wallet from '../assets/project-screenshots/wallet.png';
 import fullStackBank from '../assets/project-screenshots/fullstack-bank.png';
+import jobInsights from '../assets/project-screenshots/job-insights.png';
+import inventoryReports from '../assets/project-screenshots/Inventory-reports.png';
+import techNews from '../assets/project-screenshots/tech-news.png';
 
 const screenshotsData = {
   1: sonicTrunfo,
@@ -30,6 +33,9 @@ const screenshotsData = {
   13: storeManager,
   14: trybewarts,
   15: fullStackBank,
+  16: jobInsights,
+  17: inventoryReports,
+  18: techNews,
 };
 
 export default screenshotsData;

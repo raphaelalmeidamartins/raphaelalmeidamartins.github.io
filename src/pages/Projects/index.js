@@ -40,6 +40,7 @@ function Projects() {
           </Button>
           <Button onClick={() => setFilter('Front-end')}>Front-end</Button>
           <Button onClick={() => setFilter('Back-end')}>Back-end</Button>
+          <Button onClick={() => setFilter('Data Science')}>Data Science</Button>
         </ButtonGroup>
       </Box>
       <Grid
