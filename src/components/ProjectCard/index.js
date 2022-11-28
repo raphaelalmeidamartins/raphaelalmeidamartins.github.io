@@ -28,8 +28,15 @@ function ProjectCard({
     BR: 'Em Desenvolvimento',
   };
 
+  const [elevation, setElevation] = React.useState(2);
+
   return (
-    <Card sx={{ height: '100%', position: 'relative' }}>
+    <Card
+      sx={{ height: '100%', position: 'relative' }}
+      elevation={elevation}
+      onMouseEnter={() => setElevation(10)}
+      onMouseLeave={() => setElevation(3)}
+    >
       <CardMedia
         component="img"
         height="290"
