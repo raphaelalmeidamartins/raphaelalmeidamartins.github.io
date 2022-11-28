@@ -49,6 +49,10 @@ function Skills() {
               alt="TypeScript"
             />
             <SkillBadge
+              src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white"
+              alt="Next"
+            />
+            <SkillBadge
               src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"
               alt="React"
             />
@@ -152,6 +156,10 @@ function Skills() {
             <SkillBadge
               src="https://img.shields.io/badge/testing%20library-323330?style=for-the-badge&logo=testing-library&logoColor=red"
               alt="Testing Library"
+            />
+            <SkillBadge
+              src="https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e"
+              alt="Cypress"
             />
             <SkillBadge
               src="https://img.shields.io/badge/mocha.js-323330?style=for-the-badge&logo=mocha&logoColor=Brown"
