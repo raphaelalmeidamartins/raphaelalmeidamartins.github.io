@@ -58,7 +58,9 @@ const Header = () => {
   };
 
   return (
-    <AppBar>
+    <AppBar
+      sx={{ backgroundColor: 'background.default', backdropFilter: 'blur(10px)' }}
+    >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -93,11 +95,7 @@ const Header = () => {
             >
               {sections.map(({ name, href }) => (
                 <MenuItem key={href} onClick={handleCloseNavMenu}>
-                  <Button
-                    variant="text"
-                    component="a"
-                    href={href}
-                  >
+                  <Button variant="text" component="a" href={href}>
                     {name[lang]}
                   </Button>
                 </MenuItem>

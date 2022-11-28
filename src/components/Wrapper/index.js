@@ -1,8 +1,8 @@
-import React from 'react';
-import PropTypes from 'prop-types';
 import Container from '@mui/system/Container';
+import PropTypes from 'prop-types';
+import React from 'react';
 
-function Wrapper({ children, sectionId, minHeight }) {
+function Wrapper({ children, sectionId, minHeight, sx }) {
   return (
     <Container
       id={ sectionId }
@@ -11,12 +11,17 @@ function Wrapper({ children, sectionId, minHeight }) {
         minHeight,
         paddingBottom: '52px',
         paddingTop: '52px',
+        ...sx,
       }}
     >
       {children}
     </Container>
   );
 }
+
+Wrapper.defaultProps = {
+  sx: {},
+};
 
 Wrapper.propTypes = {
   children: PropTypes.oneOfType([
@@ -25,6 +30,7 @@ Wrapper.propTypes = {
   ]),
   sectionId: PropTypes.string,
   minHeight: PropTypes.string,
+  sx: PropTypes.objectOf(PropTypes.string),
 };
 
 export default Wrapper;

@@ -12,7 +12,13 @@ function Contact() {
 
   return (
     <Wrapper sectionId="contact">
-      <Typography variant="h2" element="h1" align="center" gutterBottom>
+      <Typography
+        variant="h2"
+        element="h1"
+        align="center"
+        gutterBottom
+        sx={{ marginBottom: '38px' }}
+      >
         {lang === 'BR' ? 'Fale comigo' : 'Get in touch'}
       </Typography>
       <Typography variant="body1" element="p" align="center" paragraph>
@@ -26,6 +32,7 @@ function Contact() {
           '& .MuiTextField-root': { m: 1 },
           display: 'flex',
           flexDirection: 'column',
+          backdropFilter: 'blur(4px)'
         }}
         action="https://formsubmit.co/raphael.almeida.martins@gmail.com"
         method="POST"

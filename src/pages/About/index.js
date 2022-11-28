@@ -1,6 +1,7 @@
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
+import { useTheme } from '@mui/system';
 import Box from '@mui/system/Box';
 import * as React from 'react';
 import me from '../../assets/other-images/me.jpg';
@@ -10,12 +11,14 @@ import { AppContext } from '../../context';
 
 function About() {
   const { lang } = React.useContext(AppContext);
+  const {
+    palette: { secondary },
+  } = useTheme();
 
   return (
     <Box
       sx={{
-        backgroundColor: 'primary.main',
-        color: 'primary.contrastText',
+        backgroundColor: 'transparent',
       }}
     >
       <Wrapper sectionId="about">
@@ -23,6 +26,7 @@ function About() {
           container
           spacing={{ xs: 4, sm: 4, md: 4 }}
           columns={{ xs: 4, sm: 8, md: 12 }}
+          sx={{ paddingTop: '72px' }}
         >
           <Grid
             item
@@ -40,12 +44,13 @@ function About() {
                 alignItems: 'center',
                 borderWidth: '20px',
                 borderStyle: 'dotted double none solid',
-                borderColor: 'primary.contrastText',
+                borderColor: secondary.contrastText,
                 borderRadius: '40px',
                 display: 'flex',
                 height: 'fit-content',
                 justifyContent: 'center',
                 width: 'fit-content',
+                rotate: '-3deg',
               }}
             >
               <img
@@ -65,10 +70,16 @@ function About() {
               sx={{
                 backgroundColor: '#2F2440',
                 height: '100%',
-                padding: '18px',
+                padding: '32px',
               }}
             >
-              <Typography variant="h2" element="h1" align="left" gutterBottom>
+              <Typography
+                variant="h2"
+                element="h1"
+                align="left"
+                gutterBottom
+                sx={{ marginBottom: '38px' }}
+              >
                 {lang === 'BR' ? 'Olá,' : 'Hello,'}
               </Typography>
               {lang === 'BR' ? (
@@ -134,10 +145,10 @@ function About() {
                     Before I discovered my passion for coding, I took a Graphic
                     Design course and graduated in Financial Management.
                     Although I did not follow any of these career paths, this
-                    prior knowledge gives me some attractive characteristics
-                    as a developer. The design background is an asset while
-                    working with CSS, and my experience in financial math
-                    helps me with the logic of my algorithms.
+                    prior knowledge gives me some attractive characteristics as
+                    a developer. The design background is an asset while working
+                    with CSS, and my experience in financial math helps me with
+                    the logic of my algorithms.
                   </Typography>
                   <Typography
                     variant="body1"
@@ -145,8 +156,8 @@ function About() {
                     align="left"
                     paragraph
                   >
-                    I am a creative person with initiative. The things I value the most
-                    in the work environment are{' '}
+                    I am a creative person with initiative. The things I value
+                    the most in the work environment are{' '}
                     <strong>commitment and teamwork.</strong>
                   </Typography>
                 </>

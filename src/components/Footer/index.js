@@ -12,7 +12,11 @@ function Footer() {
 
   return (
     <Box
-      sx={{ backgroundColor: 'primary.main', color: 'primary.contrastText' }}
+      sx={{
+        backgroundColor: 'primary.main',
+        color: 'primary.contrastText',
+        backdropFilter: 'blur(10px)',
+      }}
     >
       <Container
         component="main"

@@ -17,7 +17,7 @@ function Skills() {
         align="center"
         sx={{ margin: '38px 0' }}
       >
-        {lang === 'BR' ? 'Habilidades e ferramentas' : 'Skills and Tools'}
+        {lang === 'BR' ? 'Habilidades' : 'Skills and Tools'}
       </Typography>
       <Grid
         container
@@ -29,7 +29,7 @@ function Skills() {
             elevation={3}
             sx={{ padding: '18px', height: '100%', textAlign: 'center' }}
           >
-            <Typography variant="h4" element="h2" align="center" gutterBottom>
+            <Typography variant="h4" element="h2" align="center" gutterBottom sx={{ marginBottom: '24px' }}>
               Front-end
             </Typography>
             <SkillBadge
@@ -91,7 +91,7 @@ function Skills() {
             elevation={3}
             sx={{ padding: '18px', height: '100%', textAlign: 'center' }}
           >
-            <Typography variant="h4" element="h2" align="center" gutterBottom>
+            <Typography variant="h4" element="h2" align="center" gutterBottom sx={{ marginBottom: '24px' }}>
               Back-end
             </Typography>
             <SkillBadge
@@ -150,7 +150,7 @@ function Skills() {
             elevation={3}
             sx={{ padding: '18px', height: '100%', textAlign: 'center' }}
           >
-            <Typography variant="h4" element="h2" align="center" gutterBottom>
+            <Typography variant="h4" element="h2" align="center" gutterBottom sx={{ marginBottom: '24px' }}>
               {lang === 'BR' ? 'Testes' : 'Tests'}
             </Typography>
             <SkillBadge
@@ -184,7 +184,7 @@ function Skills() {
             elevation={3}
             sx={{ padding: '18px', height: '100%', textAlign: 'center' }}
           >
-            <Typography variant="h4" element="h2" align="center" gutterBottom>
+            <Typography variant="h4" element="h2" align="center" gutterBottom sx={{ marginBottom: '24px' }}>
               {lang === 'BR' ? 'Outros' : 'Other'}
             </Typography>
             <SkillBadge
