@@ -27,6 +27,9 @@ const theme = createTheme({
   typography: {
     fontFamily: '"Nunito Sans", "Helvetica", "Arial", sans-serif',
   },
+  shape: {
+    borderRadius: '20px',
+  },
 });
 
 export default theme;

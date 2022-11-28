@@ -34,18 +34,18 @@ function Projects() {
       <Box
         sx={{ display: 'flex', justifyContent: 'center', marginBottom: '16px' }}
       >
-        <ButtonGroup variant="contained" sx={{ marginBottom: '18px' }}>
+        <ButtonGroup variant="contained" sx={{ marginBottom: '26px' }}>
           <Button onClick={() => setFilter('All')}>
             {lang === 'BR' ? 'Todos' : 'All'}
           </Button>
-          <Button onClick={() => setFilter('Front-end')}>Front-end</Button>
-          <Button onClick={() => setFilter('Back-end')}>Back-end</Button>
+          <Button onClick={() => setFilter('Front-end')}>Front</Button>
+          <Button onClick={() => setFilter('Back-end')}>Back</Button>
           <Button onClick={() => setFilter('Data Science')}>Data Science</Button>
         </ButtonGroup>
       </Box>
       <Grid
         container
-        spacing={{ xs: 3, sm: 3, md: 3 }}
+        spacing={{ xs: 4, sm: 4, md: 4 }}
         columns={{ xs: 4, sm: 8, md: 12 }}
         sx={{ marginTop: '18px' }}
       >
