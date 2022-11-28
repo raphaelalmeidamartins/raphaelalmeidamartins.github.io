@@ -5,6 +5,7 @@ import * as React from 'react';
 import mongoose from '../../assets/badges/mongoose.svg';
 import { AppContext } from '../../context';
 import SkillBadge from '../SkillBadge';
+import { motion } from 'framer-motion';
 
 function Skills() {
   const { lang } = React.useContext(AppContext);
@@ -27,6 +28,11 @@ function Skills() {
         <Grid item xs={4} sm={4} md={6}>
           <Paper
             elevation={3}
+            component={motion.div}
+            whileInView={{ opacity: 1, scale: 1 }}
+            initial={{ opacity: 0, scale: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: false, amount: 0.2 }}
             sx={{ padding: '18px', height: '100%', textAlign: 'center' }}
           >
             <Typography variant="h4" element="h2" align="center" gutterBottom sx={{ marginBottom: '24px' }}>
@@ -89,6 +95,11 @@ function Skills() {
         <Grid item xs={4} sm={4} md={6}>
           <Paper
             elevation={3}
+            component={motion.div}
+            whileInView={{ opacity: 1, scale: 1 }}
+            initial={{ opacity: 0, scale: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: false, amount: 0.2 }}
             sx={{ padding: '18px', height: '100%', textAlign: 'center' }}
           >
             <Typography variant="h4" element="h2" align="center" gutterBottom sx={{ marginBottom: '24px' }}>
@@ -148,6 +159,11 @@ function Skills() {
         <Grid item xs={4} sm={4} md={6}>
           <Paper
             elevation={3}
+            component={motion.div}
+            whileInView={{ opacity: 1, scale: 1 }}
+            initial={{ opacity: 0, scale: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: false, amount: 0.2 }}
             sx={{ padding: '18px', height: '100%', textAlign: 'center' }}
           >
             <Typography variant="h4" element="h2" align="center" gutterBottom sx={{ marginBottom: '24px' }}>
@@ -182,6 +198,11 @@ function Skills() {
         <Grid item xs={4} sm={4} md={6}>
           <Paper
             elevation={3}
+            component={motion.div}
+            whileInView={{ opacity: 1, scale: 1 }}
+            initial={{ opacity: 0, scale: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: false, amount: 0.2 }}
             sx={{ padding: '18px', height: '100%', textAlign: 'center' }}
           >
             <Typography variant="h4" element="h2" align="center" gutterBottom sx={{ marginBottom: '24px' }}>

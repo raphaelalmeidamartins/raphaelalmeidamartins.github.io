@@ -8,6 +8,7 @@ import me from '../../assets/other-images/me.jpg';
 import Skills from '../../components/Skills';
 import Wrapper from '../../components/Wrapper';
 import { AppContext } from '../../context';
+import { motion } from 'framer-motion';
 
 function About() {
   const { lang } = React.useContext(AppContext);
@@ -39,7 +40,11 @@ function About() {
               justifyContent: 'center',
             }}
           >
-            <div
+            <motion.div
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: -200 }}
+              transition={{ duration: 0.5 }}
+              viewport={{ once: false, amount: 0.1 }}
               style={{
                 alignItems: 'center',
                 borderWidth: '20px',
@@ -62,11 +67,16 @@ function About() {
                   margin: '18px',
                 }}
               />
-            </div>
+            </motion.div>
           </Grid>
           <Grid item xs={4} sm={4} md={8}>
             <Paper
               elevation={3}
+              component={motion.div}
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: 200 }}
+              transition={{ duration: 0.5 }}
+              viewport={{ once: false, amount: 0.1 }}
               sx={{
                 backgroundColor: '#2F2440',
                 height: '100%',
