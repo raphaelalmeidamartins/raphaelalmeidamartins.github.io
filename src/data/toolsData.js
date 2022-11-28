@@ -22,6 +22,8 @@ import {
   SiStyledcomponents,
   SiMaterialui,
   SiMongodb,
+  SiPython,
+  SiPytest,
 } from 'react-icons/si';
 import { BiTestTube } from 'react-icons/bi';
 import { TbBrandNextjs } from 'react-icons/tb';
@@ -159,6 +161,14 @@ const toolsData = {
   figma: {
     icon: <SiFigma />,
     label: 'Figma',
+  },
+  python: {
+    icon: <SiPython />,
+    label: 'Python',
+  },
+  pytest: {
+    icon: <SiPytest />,
+    label: 'Pytest',
   },
 };
 
