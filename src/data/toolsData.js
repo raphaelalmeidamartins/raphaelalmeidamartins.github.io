@@ -24,6 +24,8 @@ import {
   SiMongodb,
 } from 'react-icons/si';
 import { BiTestTube } from 'react-icons/bi';
+import { TbBrandNextjs } from 'react-icons/tb';
+import { SiCypress } from 'react-icons/si';
 
 const toolsData = {
   fontAwesome: {
@@ -37,6 +39,10 @@ const toolsData = {
   react: {
     icon: <SiReact />,
     label: 'React',
+  },
+  next: {
+    icon: <TbBrandNextjs />,
+    label: 'Next',
   },
   reactContextAPI: {
     icon: <SiReact />,
@@ -61,6 +67,10 @@ const toolsData = {
   rtl: {
     icon: <SiTestinglibrary />,
     label: 'RTL',
+  },
+  cypress: {
+    icon: <SiCypress />,
+    label: 'Cypress',
   },
   reactIcons: {
     icon: <SiReact />,
@@ -144,11 +154,11 @@ const toolsData = {
   },
   swagger: {
     icon: <SiSwagger />,
-    label: 'Swagger'
+    label: 'Swagger',
   },
   figma: {
     icon: <SiFigma />,
-    label: 'Figma'
+    label: 'Figma',
   },
 };
 
