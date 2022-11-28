@@ -111,6 +111,7 @@ function Home() {
         <IconButton
           component="a"
           href="#about"
+          title={ lang === 'BR' ? 'Descer' : 'Descend' }
           sx={{ fontSize: '3rem' }}
         >
           <RiArrowDownSLine />

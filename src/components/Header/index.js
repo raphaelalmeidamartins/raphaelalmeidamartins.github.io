@@ -69,6 +69,7 @@ const Header = () => {
               aria-haspopup="true"
               onClick={handleOpenNavMenu}
               color="inherit"
+              title="Menu"
             >
               <MenuIcon />
             </IconButton>
@@ -117,8 +118,8 @@ const Header = () => {
             ))}
           </Box>
           <Box sx={{ flexGrow: 0, alignItems: 'center', display: 'flex' }}>
-            <LanguageChip icon={<BrFlag />} label="BR" />
-            <LanguageChip icon={<UsFlag />} label="EN" />
+            <LanguageChip icon={<BrFlag />} label="BR" title="Português" />
+            <LanguageChip icon={<UsFlag />} label="EN" title="English" />
           </Box>
           <Box sx={{ flexGrow: 0, alignItems: 'center', display: 'flex' }}>
             <IconButton
@@ -126,6 +127,7 @@ const Header = () => {
               component="a"
               href="https://github.com/raphaelalmeidamartins"
               target="_blank"
+              title="GitHub"
               sx={{ margin: '0 6px', p: 0 }}
             >
               <FaGithubAlt />
@@ -135,6 +137,7 @@ const Header = () => {
               component="a"
               href="https://www.linkedin.com/in/raphaelameidamartins/"
               target="_blank"
+              title="Linkedin"
               sx={{ margin: '0 6px', p: 0 }}
             >
               <FaLinkedinIn />

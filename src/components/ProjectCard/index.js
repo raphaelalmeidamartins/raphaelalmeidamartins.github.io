@@ -84,6 +84,7 @@ function ProjectCard({
           href={repositoryLink}
           target="_blank"
           color="primary"
+          title={lang === 'BR' ? 'Repositório' : 'Repository'}
         >
           <SvgIcon inheritViewBox>
             <FaGithub />
@@ -96,6 +97,7 @@ function ProjectCard({
             href={figmaLink}
             target="_blank"
             color="primary"
+            title={lang === 'BR' ? 'Protótipo' : 'Prototype'}
           >
             <SvgIcon inheritViewBox>
               <FaFigma />
@@ -108,6 +110,7 @@ function ProjectCard({
             LinkComponent="a"
             href={deployLink}
             color="primary"
+            title="Deploy"
           >
             <SvgIcon inheritViewBox>
               <FaExternalLinkAlt />

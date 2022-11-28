@@ -33,6 +33,7 @@ function Footer() {
             component="a"
             href="https://github.com/raphaelalmeidamartins"
             target="_blank"
+            title="Github"
             sx={{
               borderWidth: '2px',
               borderStyle: 'solid',
@@ -50,6 +51,7 @@ function Footer() {
             href="https://www.linkedin.com/in/raphaelameidamartins/"
             target="_blank"
             color="secondary"
+            title="Linkedin"
             sx={{
               borderWidth: '2px',
               borderStyle: 'solid',
@@ -67,6 +69,7 @@ function Footer() {
             href="mailto:raphael.almeida.martins@gmail.com"
             target="_blank"
             color="secondary"
+            title="Email"
             sx={{
               borderWidth: '2px',
               borderStyle: 'solid',

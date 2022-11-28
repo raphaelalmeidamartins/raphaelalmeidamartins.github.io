@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import * as React from 'react';
 import { AppContext } from '../../context';
 
-function LanguageChip({ icon, label }) {
+function LanguageChip({ icon, label, title }) {
   const { setLang } = React.useContext(AppContext);
   return (
     <Chip
@@ -13,6 +13,7 @@ function LanguageChip({ icon, label }) {
       type="button"
       clickable
       variant="filled"
+      title={title}
       onClick={() => setLang(label)}
       sx={{ margin: '0 4px', cursor: 'pointer' }}
     />
@@ -22,6 +23,7 @@ function LanguageChip({ icon, label }) {
 LanguageChip.propTypes = {
   icon: PropTypes.node.isRequired,
   label: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
 };
 
 export default LanguageChip;
