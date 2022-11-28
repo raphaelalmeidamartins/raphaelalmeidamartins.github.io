@@ -57,7 +57,7 @@ function Projects() {
         onReorder={filteredProjects}
         spacing={{ xs: 4, sm: 4, md: 4 }}
         columns={{ xs: 4, sm: 8, md: 12 }}
-        sx={{ marginTop: '18px' }}
+        sx={{ marginTop: '18px', listStyleType: 'none', padding: 0 }}
       >
         {filteredProjects.map((project) => (
           <Grid
