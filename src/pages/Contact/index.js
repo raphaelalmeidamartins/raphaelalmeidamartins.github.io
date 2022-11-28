@@ -40,7 +40,7 @@ function Contact() {
             '& .MuiTextField-root': { m: 1 },
             display: 'flex',
             flexDirection: 'column',
-            backdropFilter: 'blur(4px)'
+            backdropFilter: 'blur(10px)'
           }}
           action="https://formsubmit.co/raphael.almeida.martins@gmail.com"
           method="POST"

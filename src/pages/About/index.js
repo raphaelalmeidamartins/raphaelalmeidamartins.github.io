@@ -13,7 +13,7 @@ import { motion } from 'framer-motion';
 function About() {
   const { lang } = React.useContext(AppContext);
   const {
-    palette: { secondary },
+    palette: { background },
   } = useTheme();
 
   return (
@@ -49,7 +49,7 @@ function About() {
                 alignItems: 'center',
                 borderWidth: '20px',
                 borderStyle: 'dotted double none solid',
-                borderColor: secondary.contrastText,
+                borderColor: background.paper2,
                 borderRadius: '40px',
                 display: 'flex',
                 height: 'fit-content',
@@ -65,6 +65,7 @@ function About() {
                   borderRadius: '40px',
                   maxWidth: '100%',
                   margin: '18px',
+                  scale: '1.05',
                 }}
               />
             </motion.div>
@@ -78,7 +79,7 @@ function About() {
               transition={{ duration: 0.5 }}
               viewport={{ once: false, amount: 0.1 }}
               sx={{
-                backgroundColor: '#2F2440',
+                backgroundColor: 'background.paper2',
                 height: '100%',
                 padding: '32px',
               }}

@@ -32,7 +32,7 @@ function ProjectCard({
 
   return (
     <Card
-      sx={{ height: '100%', position: 'relative' }}
+      sx={{ height: '100%', position: 'relative', backdropFilter: 'blur(10px)' }}
       elevation={elevation}
       onMouseEnter={() => setElevation(10)}
       onMouseLeave={() => setElevation(3)}

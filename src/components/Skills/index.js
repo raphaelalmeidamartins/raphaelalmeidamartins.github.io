@@ -1,11 +1,11 @@
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
+import { motion } from 'framer-motion';
 import * as React from 'react';
 import mongoose from '../../assets/badges/mongoose.svg';
 import { AppContext } from '../../context';
 import SkillBadge from '../SkillBadge';
-import { motion } from 'framer-motion';
 
 function Skills() {
   const { lang } = React.useContext(AppContext);
@@ -33,9 +33,20 @@ function Skills() {
             initial={{ opacity: 0, scale: 0 }}
             transition={{ duration: 0.5 }}
             viewport={{ once: false, amount: 0.2 }}
-            sx={{ padding: '18px', height: '100%', textAlign: 'center' }}
+            sx={{
+              padding: '18px',
+              height: '100%',
+              textAlign: 'center',
+              backgroundColor: 'background.paper3',
+            }}
           >
-            <Typography variant="h4" element="h2" align="center" gutterBottom sx={{ marginBottom: '24px' }}>
+            <Typography
+              variant="h4"
+              element="h2"
+              align="center"
+              gutterBottom
+              sx={{ marginBottom: '24px' }}
+            >
               Front-end
             </Typography>
             <SkillBadge
@@ -100,9 +111,20 @@ function Skills() {
             initial={{ opacity: 0, scale: 0 }}
             transition={{ duration: 0.5 }}
             viewport={{ once: false, amount: 0.2 }}
-            sx={{ padding: '18px', height: '100%', textAlign: 'center' }}
+            sx={{
+              padding: '18px',
+              height: '100%',
+              textAlign: 'center',
+              backgroundColor: 'background.paper3',
+            }}
           >
-            <Typography variant="h4" element="h2" align="center" gutterBottom sx={{ marginBottom: '24px' }}>
+            <Typography
+              variant="h4"
+              element="h2"
+              align="center"
+              gutterBottom
+              sx={{ marginBottom: '24px' }}
+            >
               Back-end
             </Typography>
             <SkillBadge
@@ -164,9 +186,20 @@ function Skills() {
             initial={{ opacity: 0, scale: 0 }}
             transition={{ duration: 0.5 }}
             viewport={{ once: false, amount: 0.2 }}
-            sx={{ padding: '18px', height: '100%', textAlign: 'center' }}
+            sx={{
+              padding: '18px',
+              height: '100%',
+              textAlign: 'center',
+              backgroundColor: 'background.paper3',
+            }}
           >
-            <Typography variant="h4" element="h2" align="center" gutterBottom sx={{ marginBottom: '24px' }}>
+            <Typography
+              variant="h4"
+              element="h2"
+              align="center"
+              gutterBottom
+              sx={{ marginBottom: '24px' }}
+            >
               {lang === 'BR' ? 'Testes' : 'Tests'}
             </Typography>
             <SkillBadge
@@ -203,9 +236,20 @@ function Skills() {
             initial={{ opacity: 0, scale: 0 }}
             transition={{ duration: 0.5 }}
             viewport={{ once: false, amount: 0.2 }}
-            sx={{ padding: '18px', height: '100%', textAlign: 'center' }}
+            sx={{
+              padding: '18px',
+              height: '100%',
+              textAlign: 'center',
+              backgroundColor: 'background.paper3',
+            }}
           >
-            <Typography variant="h4" element="h2" align="center" gutterBottom sx={{ marginBottom: '24px' }}>
+            <Typography
+              variant="h4"
+              element="h2"
+              align="center"
+              gutterBottom
+              sx={{ marginBottom: '24px' }}
+            >
               {lang === 'BR' ? 'Outros' : 'Other'}
             </Typography>
             <SkillBadge

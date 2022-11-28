@@ -4,25 +4,27 @@ const theme = createTheme({
   palette: {
     mode: 'dark',
     primary: {
-      main: '#D67BA8',
+      main: '#7bc2d6',
       contrastText: '#000000',
     },
     secondary: {
-      main: '#d86983',
+      main: '#3b3b3b',
       contrastText: '#000000',
     },
     error: {
       main: '#ef7a52',
     },
     text: {
-      primary: '#eac9ef',
-      secondary: 'rgba(234,201,239,0.7)',
-      disabled: 'rgba(234,201,239,0.5)',
-      hint: 'rgba(234,201,239,0.5)',
+      primary: '#c9e1ef',
+      secondary: 'rgba(201, 223, 239, 0.7)',
+      disabled: 'rgba(201, 223, 239, 0.5)',
+      hint: 'rgba(201, 223, 239, 0.5)',
     },
     background: {
-      default: '#3b02259c',
-      paper: '#5405339c',
+      default: '#022d3b9c',
+      paper: '#022d3b9c',
+      paper2: '#402439',
+      paper3: '#201638',
     },
   },
   typography: {

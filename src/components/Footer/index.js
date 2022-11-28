@@ -13,8 +13,7 @@ function Footer() {
   return (
     <Box
       sx={{
-        backgroundColor: 'primary.main',
-        color: 'primary.contrastText',
+        backgroundColor: 'background.paper',
         backdropFilter: 'blur(10px)',
       }}
     >
@@ -41,8 +40,8 @@ function Footer() {
             sx={{
               borderWidth: '2px',
               borderStyle: 'solid',
-              borderColor: 'primary.contrastText',
-              color: 'primary.contrastText',
+              borderColor: 'text.primary',
+              color: 'text.primary',
               fontSize: '1.8rem',
               margin: '0 6px',
             }}
@@ -59,8 +58,8 @@ function Footer() {
             sx={{
               borderWidth: '2px',
               borderStyle: 'solid',
-              borderColor: 'primary.contrastText',
-              color: 'primary.contrastText',
+              borderColor: 'text.primary',
+              color: 'text.primary',
               fontSize: '1.8rem',
               margin: '0 6px',
             }}
@@ -77,8 +76,8 @@ function Footer() {
             sx={{
               borderWidth: '2px',
               borderStyle: 'solid',
-              borderColor: 'primary.contrastText',
-              color: 'primary.contrastText',
+              borderColor: 'text.primary',
+              color: 'text.primary',
               fontSize: '1.8rem',
               margin: '0 6px',
             }}
@@ -91,18 +90,12 @@ function Footer() {
             2022 © Raphael Martins. Alguns direitos reservados
             <br />
             Desenvolvido com React.js, MUI e Emotion.js
-            <br />
-            Background por{' '}
-            <a href="https://www.svgbackgrounds.com/">SVGBackgrounds.com</a>
           </Typography>
         ) : (
           <Typography variant="body1" element="p" align="center" paragraph>
             2022 © Raphael Martins. Some rights reserved
             <br />
             Developed with React.js, MUI and Emotion.js
-            <br />
-            Background by{' '}
-            <a href="https://www.svgbackgrounds.com/">SVGBackgrounds.com</a>
           </Typography>
         )}
       </Container>
