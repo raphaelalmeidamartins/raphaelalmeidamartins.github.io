@@ -79,7 +79,7 @@ function About() {
                     align="left"
                     paragraph
                   >
-                    sou Raphael Martins desenvolvedor Web em formação. Escolhi a
+                    sou Raphael Martins desenvolvedor Web full stack. Escolhi a
                     área de programação porque acredito que a tecnologia é uma
                     ferramenta capaz de mudar o mundo para melhor levando
                     informação e oportunidades.{' '}
@@ -120,7 +120,7 @@ function About() {
                     align="left"
                     paragraph
                   >
-                    I am Raphael Martins, a Web developer in the making. I chose
+                    I am Raphael Martins, a full stack Web developer. I chose
                     the software development area because I believe technology
                     is a powerful tool capable of changing the world for the
                     better. <strong>I want to be a part of that.</strong>
