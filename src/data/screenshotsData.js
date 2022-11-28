@@ -12,6 +12,7 @@ import trybeWineHackathon from '../assets/project-screenshots/trybe-wine-hackath
 import trybesmith from '../assets/project-screenshots/trybesmith.png';
 import trybewarts from '../assets/project-screenshots/trybewarts.png';
 import wallet from '../assets/project-screenshots/wallet.png';
+import fullStackBank from '../assets/project-screenshots/fullstack-bank.png';
 
 const screenshotsData = {
   1: sonicTrunfo,
@@ -28,6 +29,7 @@ const screenshotsData = {
   12: testsWithRTL,
   13: storeManager,
   14: trybewarts,
+  15: fullStackBank,
 };
 
 export default screenshotsData;
