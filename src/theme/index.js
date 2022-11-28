@@ -28,7 +28,7 @@ const theme = createTheme({
     fontFamily: '"Nunito Sans", "Helvetica", "Arial", sans-serif',
   },
   shape: {
-    borderRadius: '20px',
+    borderRadius: 20,
   },
 });
 
