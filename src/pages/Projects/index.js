@@ -39,7 +39,7 @@ function Projects() {
       <Box
         sx={{ display: 'flex', justifyContent: 'center', marginBottom: '16px' }}
       >
-        <ButtonGroup variant="contained" sx={{ marginBottom: '26px' }}>
+        <ButtonGroup variant="contained" sx={{ margin: '26px 0' }}>
           <Button onClick={() => setFilter('All')}>
             {lang === 'BR' ? 'Todos' : 'All'}
           </Button>
