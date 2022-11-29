@@ -83,6 +83,7 @@ function Projects() {
               sm={4}
               md={4}
               key={project.id}
+              sx={{ touchAction: 'unset !important' }}
             >
               <ProjectCard key={project.id} {...project} />
             </Grid>
