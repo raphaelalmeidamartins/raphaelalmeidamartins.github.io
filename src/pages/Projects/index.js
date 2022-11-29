@@ -67,7 +67,8 @@ function Projects() {
           container
           component={Reorder.Group}
           values={projectsData}
-          onReorder={filteredProjects}
+          axis="x"
+          onReorder={() => filteredProjects}
           spacing={{ xs: 4, sm: 4, md: 4 }}
           columns={{ xs: 4, sm: 8, md: 12 }}
           sx={{ marginTop: '18px', listStyleType: 'none', padding: 0 }}
@@ -79,11 +80,11 @@ function Projects() {
               value={project}
               animate={{ scale: 1 }}
               initial={{ scale: 0 }}
+              dragConstraints={{ left: -1, right: 1 }}
               xs={12}
               sm={4}
               md={4}
               key={project.id}
-              sx={{ touchAction: 'unset !important' }}
             >
               <ProjectCard key={project.id} {...project} />
             </Grid>
