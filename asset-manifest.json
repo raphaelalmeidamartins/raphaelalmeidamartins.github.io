@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.8d052053.css",
-    "main.js": "/static/js/main.e4c45980.js",
+    "main.js": "/static/js/main.7306243a.js",
     "static/js/787.3fd8f1df.chunk.js": "/static/js/787.3fd8f1df.chunk.js",
-    "static/media/me.jpg": "/static/media/me.42d8df74da9a88f22cc6.jpg",
+    "static/media/me.jpg": "/static/media/me.ed1111fa008df85124ae.jpg",
     "static/media/sonic-trunfo.png": "/static/media/sonic-trunfo.59514cd6d6b73b054cbc.png",
     "static/media/trivia.png": "/static/media/trivia.5489104b6557edaf4d8b.png",
     "static/media/trybe-wine-hackathon.png": "/static/media/trybe-wine-hackathon.499a2d72b2b5c53d3c7d.png",
@@ -23,11 +23,11 @@
     "static/media/mongoose.svg": "/static/media/mongoose.62a16b5a6fa185fc0f2a1b02ec064f6b.svg",
     "index.html": "/index.html",
     "main.8d052053.css.map": "/static/css/main.8d052053.css.map",
-    "main.e4c45980.js.map": "/static/js/main.e4c45980.js.map",
+    "main.7306243a.js.map": "/static/js/main.7306243a.js.map",
     "787.3fd8f1df.chunk.js.map": "/static/js/787.3fd8f1df.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8d052053.css",
-    "static/js/main.e4c45980.js"
+    "static/js/main.7306243a.js"
   ]
 }
