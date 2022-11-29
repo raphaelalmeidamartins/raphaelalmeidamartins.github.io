@@ -1,14 +1,16 @@
-import * as React from 'react';
+import { useTheme } from '@mui/material';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/system/Box';
+import * as React from 'react';
 import { RiArrowDownSLine } from 'react-icons/ri';
 import Wrapper from '../../components/Wrapper';
 import { AppContext } from '../../context';
 
 function Home() {
   const { lang } = React.useContext(AppContext);
+  const { palette: { background } } = useTheme();
 
   const resume = {
     EN: 'https://drive.google.com/file/d/1QORXJLNG4Qc7Ev2rTXZL9Db-8f8s1P83/view?usp=sharing',
@@ -30,28 +32,33 @@ function Home() {
         <Typography
           variant="h1"
           element="h1"
-          align="center"
+          align="left"
           sx={{
-            fontFamily: 'MuseoModerno',
-            fontSize: { xs: '3rem', sm: '3.75rem', md: '6rem' },
-            fontWeight: 500,
+            fontSize: { xs: '3.5rem', sm: '6rem', md: '7rem' },
             transition: '400ms',
+            position: 'relative',
+            textShadow: `8px 8px 5px ${background.default}`,
           }}
         >
-          Raphael Martins
-        </Typography>
-        <Typography
-          variant="h3"
-          element="p"
-          align="center"
-          paragraph
-          sx={{
-            fontFamily: 'MuseoModerno',
-            fontSize: { xs: '2.125rem', sm: '3rem', md: '3.75rem' },
-            transition: '400ms',
-          }}
-        >
-          Web Developer
+          <span>Raphael</span>
+          <br />
+          <span style={{ marginLeft: '60px' }}>Martins</span>
+          <Typography
+            variant="h3"
+            element="p"
+            align="center"
+            paragraph
+            sx={{
+              fontSize: { xs: '1rem', sm: '2rem', md: '2.125rem' },
+              transition: '400ms',
+              position: 'absolute',
+              left: '30%',
+              rotate: '-4deg',
+              width: '100%'
+            }}
+          >
+            Web Developer
+          </Typography>
         </Typography>
         <Box
           sx={{
@@ -63,7 +70,7 @@ function Home() {
               md: 'row nowrap',
             },
             justifyContent: 'center',
-            marginTop: '18px',
+            marginTop: { xs: '80px', sm: '140px', md: '140px' },
             transition: '400ms',
             width: '100%',
           }}
@@ -88,16 +95,20 @@ function Home() {
               width: '200px',
             }}
           >
-            { lang === 'BR' ? 'Entre em contato' : 'Get in touch'}
+            {lang === 'BR' ? 'Entre em contato' : 'Get in touch'}
           </Button>
           <Button
             variant="outlined"
             size="large"
             component="a"
             href={resume[lang]}
-            sx={{ width: '200px', transition: '400ms' }}
+            sx={{
+              width: '200px',
+              transition: '400ms',
+              backdropFilter: 'blur(10px)',
+            }}
           >
-            { lang === 'BR' ? 'Baixar CV' : 'Download CV'}
+            {lang === 'BR' ? 'Baixar CV' : 'Download CV'}
           </Button>
         </Box>
       </Box>
@@ -111,7 +122,7 @@ function Home() {
         <IconButton
           component="a"
           href="#about"
-          title={ lang === 'BR' ? 'Descer' : 'Descend' }
+          title={lang === 'BR' ? 'Descer' : 'Descend'}
           sx={{ fontSize: '3rem' }}
         >
           <RiArrowDownSLine />
