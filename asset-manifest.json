@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.c50d516f.css",
-    "main.js": "/static/js/main.025cb319.js",
+    "main.css": "/static/css/main.50f98dec.css",
+    "main.js": "/static/js/main.e4c45980.js",
     "static/js/787.3fd8f1df.chunk.js": "/static/js/787.3fd8f1df.chunk.js",
+    "static/media/me.jpg": "/static/media/me.42d8df74da9a88f22cc6.jpg",
     "static/media/sonic-trunfo.png": "/static/media/sonic-trunfo.59514cd6d6b73b054cbc.png",
-    "static/media/me.jpg": "/static/media/me.9c88569b6904fba18219.jpg",
     "static/media/trivia.png": "/static/media/trivia.5489104b6557edaf4d8b.png",
     "static/media/trybe-wine-hackathon.png": "/static/media/trybe-wine-hackathon.499a2d72b2b5c53d3c7d.png",
     "static/media/fine-flavor.png": "/static/media/fine-flavor.79da44c940f9569b5399.png",
@@ -20,15 +20,14 @@
     "static/media/trybesmith.png": "/static/media/trybesmith.582dad5de46c8c708ad0.png",
     "static/media/tech-news.png": "/static/media/tech-news.c514903a4780a569b792.png",
     "static/media/todo-list.png": "/static/media/todo-list.bf292fa47764aee2d188.png",
-    "static/media/scattered-forcefields-dark.svg": "/static/media/scattered-forcefields-dark.136ce18b4ed152cc2f431c18b113a01f.svg",
     "static/media/mongoose.svg": "/static/media/mongoose.62a16b5a6fa185fc0f2a1b02ec064f6b.svg",
     "index.html": "/index.html",
-    "main.c50d516f.css.map": "/static/css/main.c50d516f.css.map",
-    "main.025cb319.js.map": "/static/js/main.025cb319.js.map",
+    "main.50f98dec.css.map": "/static/css/main.50f98dec.css.map",
+    "main.e4c45980.js.map": "/static/js/main.e4c45980.js.map",
     "787.3fd8f1df.chunk.js.map": "/static/js/787.3fd8f1df.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c50d516f.css",
-    "static/js/main.025cb319.js"
+    "static/css/main.50f98dec.css",
+    "static/js/main.e4c45980.js"
   ]
 }
