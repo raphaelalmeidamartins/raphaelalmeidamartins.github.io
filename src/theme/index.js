@@ -29,6 +29,9 @@ const theme = createTheme({
   },
   typography: {
     fontFamily: '"Nunito Sans", "Helvetica", "Arial", sans-serif',
+    h1: {
+      fontFamily: 'Fredoka One, cursive',
+    },
     h2: {
       fontFamily: 'Rock Salt, cursive',
       fontSize: '3rem',

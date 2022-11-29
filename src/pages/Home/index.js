@@ -10,7 +10,9 @@ import { AppContext } from '../../context';
 
 function Home() {
   const { lang } = React.useContext(AppContext);
-  const { palette: { background } } = useTheme();
+  const {
+    palette: { background },
+  } = useTheme();
 
   const resume = {
     EN: 'https://drive.google.com/file/d/1QORXJLNG4Qc7Ev2rTXZL9Db-8f8s1P83/view?usp=sharing',
@@ -54,7 +56,7 @@ function Home() {
               position: 'absolute',
               left: '30%',
               rotate: '-4deg',
-              width: '100%'
+              width: '100%',
             }}
           >
             Web Developer
