@@ -90,6 +90,16 @@ function Footer() {
             2022 © Raphael Martins. Alguns direitos reservados
             <br />
             Desenvolvido com React.js, MUI e Emotion.js
+            <br />
+            SVG Background por{' '}
+            <a
+              style={{ color: 'white' }}
+              target="_blank"
+              href="https://bgjar.com"
+              rel="noreferrer"
+            >
+              BGJar
+            </a>
           </Typography>
         ) : (
           <Typography variant="body1" element="p" align="center" paragraph>
@@ -97,7 +107,7 @@ function Footer() {
             <br />
             Developed with React.js, MUI and Emotion.js
             <br />
-            Free SVG Background by{' '}
+            SVG Background by{' '}
             <a
               style={{ color: 'white' }}
               target="_blank"
