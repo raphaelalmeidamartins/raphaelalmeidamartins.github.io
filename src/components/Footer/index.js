@@ -69,7 +69,7 @@ function Footer() {
           <IconButton
             size="large"
             component="a"
-            href="mailto:raphael.almeida.martins@gmail.com"
+            href="mailto:hello@raphaelmartins.dev"
             target="_blank"
             color="secondary"
             title="Email"

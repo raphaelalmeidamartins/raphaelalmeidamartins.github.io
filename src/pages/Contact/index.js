@@ -42,7 +42,7 @@ function Contact() {
             flexDirection: 'column',
             backdropFilter: 'blur(10px)'
           }}
-          action="https://formsubmit.co/raphael.almeida.martins@gmail.com"
+          action="https://formsubmit.co/hello@raphaelmartins.dev"
           method="POST"
           autoComplete="off"
         >
