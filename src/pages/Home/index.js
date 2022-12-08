@@ -15,8 +15,8 @@ function Home() {
   } = useTheme();
 
   const resume = {
-    EN: 'https://drive.google.com/file/d/1QORXJLNG4Qc7Ev2rTXZL9Db-8f8s1P83/view?usp=sharing',
-    BR: 'https://drive.google.com/file/d/1gJMEDO7kExFr1GhRolEGkyqfxlKQlmDI/view?usp=sharing',
+    EN: 'https://drive.google.com/file/d/1VetMY5D71HGko3JNhOczD7r7DLjisgXH/view?usp=sharing',
+    BR: 'https://drive.google.com/file/d/1fDfHDwuBt2pawRPEh_97p6nDgfy6SybC/view?usp=sharing',
   };
 
   return (
