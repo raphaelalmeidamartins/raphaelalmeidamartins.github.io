@@ -87,7 +87,7 @@ function Footer() {
         </Box>
         {lang === 'BR' ? (
           <Typography variant="body1" element="p" align="center" paragraph>
-            2022 © Raphael Martins. Alguns direitos reservados
+            2023 © Raphael Martins. Alguns direitos reservados
             <br />
             Desenvolvido com React.js, MUI e Emotion.js
             <br />
@@ -103,7 +103,7 @@ function Footer() {
           </Typography>
         ) : (
           <Typography variant="body1" element="p" align="center" paragraph>
-            2022 © Raphael Martins. Some rights reserved
+            2023 © Raphael Martins. Some rights reserved
             <br />
             Developed with React.js, MUI and Emotion.js
             <br />
