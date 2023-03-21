@@ -176,6 +176,14 @@ function Skills() {
               src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white"
               alt="Heroku"
             />
+            <SkillBadge
+              src="https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white"
+              alt=".NET"
+            />
+            <SkillBadge
+              src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white"
+              alt="C Sharp"
+            />
           </Paper>
         </Grid>
         <Grid item xs={4} sm={4} md={6}>
