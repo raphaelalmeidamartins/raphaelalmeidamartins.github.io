@@ -101,11 +101,10 @@ function About() {
                     align="left"
                     paragraph
                   >
-                    sou Raphael Martins desenvolvedor Web full stack. Escolhi a
-                    área de programação porque acredito que a tecnologia é uma
-                    ferramenta capaz de mudar o mundo para melhor levando
-                    informação e oportunidades.{' '}
-                    <strong>Eu quero fazer parte desta mudança.</strong>
+                    sou Raphael Martins, um Desenvolvedor Full Stack apaixonado
+                    por usar tecnologia para fazer um impacto positivo no mundo.
+                    Acredito que a programação é uma área empolgante que
+                    impulsiona a inovação e resolve problemas importantes.
                   </Typography>
                   <Typography
                     variant="body1"
@@ -113,15 +112,14 @@ function About() {
                     align="left"
                     paragraph
                   >
-                    Antes de descobrir minha aptidão por desenvolvimento de
-                    software, fiz um curso técnico em Design Gráfico e me formei
-                    em Gestão Financeira. Apesar de não ter seguido carreira em
-                    nenhuma dessas áreas, essa bagagem me proporciona alguns
-                    diferenciais como programador. O contato com design me
-                    trouxe uma sensibilidade estética mais apurada que facilita
-                    meu trabalho com CSS e construção de interfaces. Enquanto
-                    meu contato com matemática financeira e estatística ajuda na
-                    lógica dos meus algorítimos.
+                    Antes de descobrir minha paixão por codificação, cursei
+                    Design Gráfico e me formei em Gestão Financeira. Essa
+                    diversidade de experiências me proporciona uma perspectiva
+                    única sobre a solução de problemas e uma variedade de
+                    habilidades que aplico ao meu trabalho. Meu conhecimento em
+                    design é útil quando trabalho com CSS, e minha formação em
+                    matemática financeira me ajuda a abordar desafios
+                    algorítmicos com uma mentalidade estruturada.
                   </Typography>
                   <Typography
                     variant="body1"
@@ -129,9 +127,11 @@ function About() {
                     align="left"
                     paragraph
                   >
-                    Sou uma pessoa bastante criativa, com iniciativa e perfil de
-                    liderança. Entre os valores que mais prezo estão o{' '}
-                    <strong>comprometimento e a colaboração.</strong>
+                    Como uma pessoa criativa e determinada, tomo a iniciativa e
+                    prospero em ambientes colaborativos que valorizam o
+                    comprometimento e o trabalho em equipe. Estou sempre
+                    procurando novos desafios e oportunidades para aprender e
+                    crescer como profissional.
                   </Typography>
                 </>
               ) : (
@@ -142,10 +142,11 @@ function About() {
                     align="left"
                     paragraph
                   >
-                    I am Raphael Martins, a full stack Web developer. I chose
-                    the software development area because I believe technology
-                    is a powerful tool capable of changing the world for the
-                    better. <strong>I want to be a part of that.</strong>
+                    I am Raphael Martins, a Full Stack Web Developer passionate
+                    about using technology to make a positive impact on the
+                    world. I believe that software development is an exciting
+                    field that can drive innovation and solve important
+                    problems.
                   </Typography>
                   <Typography
                     variant="body1"
@@ -153,13 +154,13 @@ function About() {
                     align="left"
                     paragraph
                   >
-                    Before I discovered my passion for coding, I took a Graphic
-                    Design course and graduated in Financial Management.
-                    Although I did not follow any of these career paths, this
-                    prior knowledge gives me some attractive characteristics as
-                    a developer. The design background is an asset while working
-                    with CSS, and my experience in financial math helps me with
-                    the logic of my algorithms.
+                    Before discovering my love for coding, I pursued a Graphic
+                    Design course and graduated in Financial Management. This
+                    diverse background gives me a unique perspective on
+                    problem-solving and a range of skills that I apply to my
+                    work. My design expertise comes in handy when working with
+                    CSS, and my financial math background helps me approach
+                    algorithmic challenges with a structured mindset.
                   </Typography>
                   <Typography
                     variant="body1"
@@ -167,9 +168,10 @@ function About() {
                     align="left"
                     paragraph
                   >
-                    I am a creative person with initiative. The things I value
-                    the most in the work environment are{' '}
-                    <strong>commitment and teamwork.</strong>
+                    As a creative and driven individual, I take initiative and
+                    thrive in collaborative environments that value commitment
+                    and teamwork. I am constantly seeking new challenges and
+                    opportunities to learn and grow as a professional.
                   </Typography>
                 </>
               )}
