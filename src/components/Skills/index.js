@@ -258,35 +258,15 @@ function Skills() {
               gutterBottom
               sx={{ marginBottom: '24px' }}
             >
-              {lang === 'BR' ? 'Outros' : 'Other'}
+              Mobile
             </Typography>
             <SkillBadge
-              src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=whitee"
-              alt="Git"
+              src="https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white"
+              alt="Swift"
             />
             <SkillBadge
-              src="https://img.shields.io/badge/GNU%20Bash-4EAA25?style=for-the-badge&logo=GNU%20Bash&logoColor=white"
-              alt="Bash"
-            />
-            <SkillBadge
-              src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"
-              alt="Figma"
-            />
-            <SkillBadge
-              src="https://img.shields.io/badge/gimp-5C5543?style=for-the-badge&logo=gimp&logoColor=white"
-              alt="Gimp"
-            />
-            <SkillBadge
-              src="https://img.shields.io/badge/Inkscape-000000?style=for-the-badge&logo=Inkscape&logoColor=white"
-              alt="Inkscape"
-            />
-            <SkillBadge
-              src="https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=Adobe%20Photoshop&logoColor=black"
-              alt="Adobe Photoshop"
-            />
-            <SkillBadge
-              src="https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white"
-              alt="Microsoft Excel"
+              src="https://img.shields.io/badge/Xcode-007ACC?style=for-the-badge&logo=Xcode&logoColor=white"
+              alt="Xcode"
             />
           </Paper>
         </Grid>
