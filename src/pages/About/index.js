@@ -101,8 +101,9 @@ function About() {
                     align="left"
                     paragraph
                   >
-                    sou Raphael Martins, um <strong>desenvolvedor full stack</strong> apaixonado
-                    por usar tecnologia para fazer um impacto positivo no mundo.
+                    sou Raphael Martins, um{' '}
+                    <strong>desenvolvedor full stack</strong> apaixonado por
+                    usar tecnologia para fazer um impacto positivo no mundo.
                     Acredito que a programação é uma área empolgante que
                     impulsiona a inovação e resolve problemas importantes.
                   </Typography>
@@ -112,14 +113,14 @@ function About() {
                     align="left"
                     paragraph
                   >
-                    Antes de descobrir minha paixão por código, cursei
-                    design gráfico e me formei em gestão financeira. Essa
-                    diversidade de experiências me proporciona uma perspectiva
-                    única sobre a solução de problemas e uma variedade de
-                    habilidades que aplico ao meu trabalho. Meu conhecimento em
-                    design é útil quando trabalho com CSS, e minha formação em
-                    matemática financeira me ajuda a pensar
-                    os algorítimos com uma mentalidade estruturada.
+                    Antes de descobrir minha paixão por código, cursei design
+                    gráfico e me formei em gestão financeira. Essa diversidade
+                    de experiências me proporciona uma perspectiva única sobre a
+                    solução de problemas e uma variedade de habilidades que
+                    aplico ao meu trabalho. Meu conhecimento em design é útil
+                    quando trabalho com CSS, e minha formação em matemática
+                    financeira me ajuda a pensar os algorítimos com uma
+                    mentalidade estruturada.
                   </Typography>
                   <Typography
                     variant="body1"
@@ -142,11 +143,11 @@ function About() {
                     align="left"
                     paragraph
                   >
-                    I am Raphael Martins, a <strong>full stack web developer</strong> passionate
-                    about using technology to make a positive impact on the
-                    world. I believe that software development is an exciting
-                    field that can drive innovation and solve important
-                    problems.
+                    I am Raphael Martins, a{' '}
+                    <strong>full stack web developer</strong> passionate about
+                    using technology to make a positive impact on the world. I
+                    believe that software development is an exciting field that
+                    can drive innovation and solve important problems.
                   </Typography>
                   <Typography
                     variant="body1"
@@ -155,12 +156,13 @@ function About() {
                     paragraph
                   >
                     Before discovering my love for coding, I pursued a Graphic
-                    Design course and graduated in Financial Management. This
-                    diverse background gives me a unique perspective on
-                    problem-solving and a range of skills that I apply to my
-                    work. My design expertise comes in handy when working with
-                    CSS, and my financial math background helps me approach
-                    algorithmic challenges with a structured mindset.
+                    Design course and later I earned an undergraduate degree in
+                    Financial Management. This diverse background gives me a
+                    unique perspective on problem-solving and a range of skills
+                    that I apply to my work. My design expertise comes in handy
+                    when working with CSS, and my financial math background
+                    helps me approach algorithmic challenges with a structured
+                    mindset.
                   </Typography>
                   <Typography
                     variant="body1"
