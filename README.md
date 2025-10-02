@@ -29,6 +29,7 @@ Meu portfólio pessoal. Desenvolvido em React e Material UI.
 
 * Develop a React application using the Material UI framework
 <br />
+
 </details>
 
 <details>
@@ -36,6 +37,7 @@ Meu portfólio pessoal. Desenvolvido em React e Material UI.
 
 * Desenvolver uma aplicação React com o Material UI framework
 <br />
+
 </details>
 
 ## :memo: Methodologies/Metodologias
